@@ -1,0 +1,1232 @@
+#+title: Meetings
+
+* Meetings
+
+** Program Status Report :meeting:
+:PROPERTIES:
+:DATE: [2025-05-30 Fri 15:36]
+:ATTENDEES: Brent, Sakshi, Dan R, Andrew, Dave R, Rosh
+:END:
+*** Agenda
+- Review status report
+*** Notes
+- Bert and Ernie have an issue with Auth0 duplicate issue
+*** Decisions
+- Awaiting for a combined Pi4 plan
+*** Action Items
+- [X] Follow up on Auth0 duplicate issue
+
+** Pi4 Priorities and managing a lot of work :meeting:
+:PROPERTIES:
+:DATE: [2025-05-30 Fri 16:28]
+:ATTENDEES: Subbu
+:END:
+*** Agenda
+- Review how we work
+*** Notes
+- Duplicate issues in different jira boards
+- Better communication needed and more opennes
+- Monday, Tuesday and Wednesday, Subbu will focus on the enterprise Architecture
+- Tech board needs to show the tech work that needs to come before the business transformation work
+- Subbu gets a lot of last minute requests and it needs to get triaged against the work in progress
+*** Decisions
+-
+*** Action Items
+- [X] Need to follow up with Subbu and Scotty that David Gardiner can't relocate onto other work until Employer env done
+
+** David Ranger handover :meeting:
+:PROPERTIES:
+:DATE: [2025-05-30 Fri 16:33]
+:ATTENDEES: David Ranger
+:END:
+*** Agenda
+- Handover Employer squads - Bert and Ernie
+*** Notes
+:LOGBOOK:
+CLOCK: [2025-05-30 Fri 16:37]
+:END:
+- Communication is happening on multiple fronts with teams groups and more recently with Teams channels
+- Mailbox setup for Bert and Ernie, all meeting invites come from this
+- Jira is one board, with a team filter used to divide the squads
+- Backdated Returns
+  - Narendra is the Snr BA, he is struggling to create enough work for the developers
+    - Rosh (Lead BA) is helping here
+- QA is heavily part of the team, but perhaps not working very well
+*** Decisions
+-
+*** Action Items
+- [ ]
+
+** Catch up with SixPivot :meeting:
+:PROPERTIES:
+:DATE: [2025-05-30 Fri 16:38]
+:ATTENDEES: Dave Gleeson, Chris Gilbert, Megan, Faith Rees
+:END:
+*** Agenda
+- Review current Employer workload
+- Discuss difficultly with in making upcoming deadline
+*** Notes
+- Issue with meeting deadline
+  - Team spending a lot of time in meetings that are not critical to delivery
+    - Johan is asking the tech leads to do a lot of work, that is important, but not critical for the end of June employer release
+- There is a lot of team time lost to these workshops
+*** Decisions
+-
+*** Action Items
+- [X] Feature Flags to be completed
+*** DONE Production and non-production environments need to be finished
+*** DONE Need to fill pre-prod's with testing data :squad::data:
+- [X] Move Veena back to black box testing(from 10th of June)
+
+** Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-02 Mon 10:19]
+:ATTENDEES: Bert squad
+:END:
+*** Agenda
+- Standup
+*** Notes
+- David G
+  - Similar feature flag work/config
+- Benedict
+  - completed testing on EMP-275
+  - keen to put PR up soon, but depends on Dave G
+- Jason
+  - EMP-391 done most of the work, no cypress tests
+- Megan
+  - EMP-300 error handling flows
+  - waiting on santosh to finalise the review
+- Ashita
+  - workig back and forth with QA defining feature files, needs to be black box
+*** Decisions
+-
+*** Action Items
+*** DONE Check that Santosh loops back on Megan's work :squad:
+*** WAIT Need to setup black box testing for QA and engineers updaing their work with better tests, independent of QA :squad: :quality:
+
+** Backlog Readiness B&E :meeting:
+:PROPERTIES:
+:DATE: [2025-06-02 Mon 11:03]
+:ATTENDEES: Jenelle, Naleena, Nerendra
+:END:
+*** Agenda
+- Review backlog readiness for next sprint
+*** Notes
+- Returns - LI-18
+  - Tess is chasing up on getting more employers for testing
+  - Auth and Auth updates
+  - QA catch up on DoD
+  - Validation of wages needs a definition of done
+    - this is missing a DoD
+    - A lot of noise on CSV file that we want to extract from Kermit and then upload to Avatar
+    - so much talk around the security risk of where we will store it
+    - Jenelle confused around the risk, given it is nothing new from a risk level right
+    - download the CSV and automatically goes into a Jira ticket
+- Backdated - LI-1
+  - Feedback on designs, Baz updated, but now he is away
+    - Avi is taking on the design
+      - still in progress and needs review by Jenelle and then approval from legal
+    - working throguh Day validation rules
+      - Ner doing first draft and Jenelle to provide feedback
+  - Rules Engine - LI-17
+    - POC for rules engine
+    - Nah is legal resource, and she is documenting them right now
+    - not much dev work required right now
+  - Employer improvements - EMP-146
+    - Auth related issues, Sophie is owning it
+    - There is a risk around Auth0 raised
+  - WSC were not on the roadmap
+    - paying the invoices(aka vouchers)
+  - Help centre in Kermit
+    - no one is owning this help centre section at the moment.
+    - some of the content is owned
+    - but change and marketing should own this
+  - Walk through with the squad with what is coming with
+*** Decisions
+-
+*** Action Items
+- [ ]
+
+** Ernie Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-03 Tue 09:59]
+:ATTENDEES: Ernie Squad
+:END:
+*** Agenda
+- Daily standup sprint 2
+*** Notes
+- Ner
+  - EMP-46 current state process
+- Thomas
+  - EMP-85 is testable
+    - Need a dev to test it
+    - Worker list menu item
+  - EMP-13
+    - Mostly a case of testing the A/C's
+  - EMP-291
+    - justin migrating red DB to yellow
+    - meeting later today to define acceptance criteria
+  - EMP-267
+    - change to to-do and move to another sprint
+- D Gardiner
+  - resolved dev env
+- Veena
+*** Decisions
+-
+*** Action Items
+*** DONE Nominate someone to test EMP-85
+- [X] Catch up with Veena
+
+** Bert Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-03 Tue 10:15]
+:ATTENDEES: Bert Squad
+:END:
+*** Agenda
+- Scrum standup
+*** Notes
+- EMP-275
+  - got Vish to review Terraform script
+  - already been deployed
+  - needs testing
+- EMP-279
+  - Tessa to review
+- EMP-300
+  - just finishing cypress tests, need to pull and test
+- EMP-318
+  - first half of PR in review, Thomas still reviewing
+- EMP-318
+  - working with Ashita, awaiting EMP-318 to complete to put PR up
+- EMP-146
+  - updated pipeline last night
+  - four stages, one for each env
+  - current issue with integration test failing
+- Need a auth plan
+*** Decisions
+- Need an action plan on auth
+*** Action Items
+
+** Catch up with Rosh :meeting:
+:PROPERTIES:
+:DATE: [2025-06-06 Fri 09:32]
+:ATTENDEES: Rosh
+:END:
+*** Agenda
+- Letting go of Ner
+*** Notes
+- Firing Nar next week
+- Katryn and Lewis want him to be removed
+- Ner never got direct feedback
+- Jenelle sent email saying things are not good and he needs to be let go
+  - speak to her about the firing
+- Been pushed to write an options paper and he didn't do it correctly
+- Ner has taken a long time to get up to speed
+- Needs a lot of guidance to get the backlog ready
+- He was getting 3 different directions
+  - Jenelle
+  - Sophie
+  - Dave R
+- Ner upset people because he had meetings without including lots of people
+  - was upset that Ner and Baz worked through some options for design
+    - Sophie and Jenelle were upset and didn't like the designs
+*** Decisions
+-
+*** Action Items
+**** DONE Speak to Jenelle asap about letting Nar go
+
+
+** Design Bert & Ernie :meeting:
+:PROPERTIES:
+:DATE: [2025-06-03 Tue 11:34]
+:ATTENDEES: Avi, Ner, Nha, Sophie
+:END:
+*** Agenda
+- Review upcoming designs
+*** Notes
+- Nothing to update, worked upcoming designs for worker list
+*** Decisions
+-
+*** Action Items
+- [ ]
+
+** Bert & Ernie sponsor catch up :meeting:
+:PROPERTIES:
+:DATE: [2025-06-03 Tue 16:08]
+:ATTENDEES: Katryn, Sopie, Naleena, Nar, Nha, Jenelle
+:END:
+*** Agenda
+- Readiness for prototype release
+*** Notes
+- Katyrn has concerns around the release approach
+  - even if they are releasing for 10 people
+- Must push for a better quality of design
+- Consider that quality will impact the squads velocity, if the designs are wrong, then the squad will need to redo the work, rather than incrementally get better
+- Rules engine needs some further work
+- Need to understand who the new person is
+*** Decisions
+-
+*** Action Items
+- [ ]
+
+
+** Bert Sprint Planning :meeting:
+:PROPERTIES:
+:DATE: [2025-06-04 Wed 11:07]
+:ATTENDEES: Veena, Jason, Naleena, Pierre, Benedict, Ashita, Thomas
+:END:
+*** Agenda
+- Sprint 3 planning
+*** Notes
+-
+
+** Ernie standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-06 Fri 10:00]
+:ATTENDEES: Ernie squad
+:END:
+*** Agenda
+ - Standup
+*** Notes
+- EMP-238
+  - waiting for data team
+  - want to test the SSO
+    - want to login as employer
+    - data is not ready
+  - Need to work with Ran on this
+    - are we sending the link directly to the employer or not
+  - Special link "Employer not allowed to login"
+- EMP-254
+  - need to agree on data structure on the columns
+- EMP-291 - is the most important story
+  - data is migrated for 12 employers
+    - dev is ready
+    - staging, pre-prod is awaiting
+    -
+  - there are additional records for
+- The other environments are not ready
+*** Decisions
+- there is a conflict
+*** Action Items
+**** TODO Get Thomas koster correct location to document how feature toggles work
+**** TODO Need to work with Worker squad to understand who is using what env
+
+** Bert Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-06 Fri 10:18]
+:ATTENDEES: Bert Squad
+:END:
+*** Agenda
+- Sprint 3 standup
+*** Notes
+- EMP-300
+  - needs a PR
+- EMP-275
+  - soon ready for a PR
+  - need to merge to dev and test it
+  - waiting on Jason
+- EMP-373
+  - need to work through internal testing
+  - Ran needs to do a lot of work to get the auth ready for testing
+  - Get Ran to join the standup so we can get the auth ready
+- EMP-315
+  - meeting with Nam to go over and approve this
+- EMP-5
+  - Jesse working on comm's
+- EMP-304
+  - waiting on Ran
+  - all cypress tests are failing in Dev
+*** Decisions
+-
+*** Action Items
+*** DONE Create PR column
+*** DONE Awaiting for Ran to create account
+*** DONE Will manually make the 10 employers "not required" in Avatar
+
+** Tech Program weekly :meeting:
+:PROPERTIES:
+:DATE: [2025-06-06 Fri 11:02]
+:ATTENDEES: David L, David G
+:END:
+*** Agenda
+- Round house
+*** Notes
+- asking for more developers won't go down well
+- Why are we so slow - big question
+*** Decisions
+-
+*** Action Items
+**** DONE New to do from the meetings file :meeting:
+
+
+
+** DB data :meeting:
+:PROPERTIES:
+:DATE: [2025-06-06 Fri 15:04]
+:ATTENDEES: Rohan, Mukul, Vish, John S, Megan
+:END:
+*** Agenda
+-
+*** Notes
+- need to use WSL 1 and not WSL2 will get around current issue
+*** Decisions
+-
+*** Action Items
+
+** Ernie standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-10 Tue 10:01]
+:ATTENDEES: Squad
+:END:
+*** Agenda
+- Standup
+*** Notes
+- EMP-13 Thomas
+  - needs business review
+- EMP-85
+  - needs documentation
+- EMP-349
+  - made PR, getting feedback
+- EMP-254
+  - no blockers
+- EMP-291
+  - awaiting env info from Vish and John
+- EMP-367
+  - making migration scripts, will pair on the rest of it today
+*** Decisions
+-
+*** Action Items
+**** TODO Thomas to create a separate ticket in jira for EMP-85 documentation
+
+** Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-10 Tue 10:16]
+:ATTENDEES: Bert squad
+:END:
+*** Agenda
+- Sprint 3 standup
+*** Notes
+- EMP-300
+  - cypress tests aren't done, will review with Business when ready
+- EMP-391
+  - Veena wants to test
+  - then business review with Sophie and Naleena
+- EMP-275
+  - working with Vish to move to dev env
+    - still needs some more terraform work
+- EMP-373
+  - need to get dev setup organised
+  - will make 1
+- EMP-318
+  - one PR is up, will need to put another PR soon
+  - next PR is on data persistence
+  - Jason needs some help for getting the PR's done
+- EMP-315
+  - privacy changes come from Nam, but after UAT
+- EMP-304
+  - cypress the main blocker, not resovled, but will side step them
+  - staging is ready, pre-prod
+-
+
+*** Decisions
+-
+*** Action Items
+**** DONE Create a peer review column
+**** DONE 1pm checkin on dev setup
+**** DONE Break jira board into user story split
+
+** Design - Bert & Ernie :meeting:
+:PROPERTIES:
+:DATE: [2025-06-10 Tue 11:53]
+:ATTENDEES: Thomas K, Narendra, Avi, Sophie, Naleena, Nha
+:END:
+*** Agenda
+- End state backdated designs
+*** Notes
+- Talking through what the end state designs will look like
+- need to restrict the amount of email addresses to be added for the payment statement
+- email address is mapped to the invoice email address(optional email address) in avatar
+*** Decisions
+-
+*** Action Items
+**** DONE raise the risk that design conversations are talking about end state, without any data/experimentation discussions
+**** TODO sophie to find out how the financial year is to be displayed :squad:
+**** DONE need a task in jira to restrict email payment statement to be restricted to only 4 emails
+
+** Security discussion on micro release for returns :meeting:
+:PROPERTIES:
+:DATE: [2025-06-11 Wed 09:32]
+:ATTENDEES: Kate, Nixon, Megan, Sophie, Naleena
+:END:
+*** Agenda
+- discuss security needs for returns release
+*** Notes
+- Outlined the scope of the release
+- direct URL, no back access to Avatar
+- Complete the return
+- Employer completes the return
+- Download the CSV and gets uploaded to jira
+- Once return is complete, it automatically downloads and then uploads to Jira
+  - users are not touching the CSV creation or upload process
+- Nixon wants to have a test of the return process to see how it works
+- Synk can run against the branch you are doing, so you can improve it as you go, but also, can run against the repo so there is testing
+- DevOps can run it against the overall repo and engineers can run against their branches
+- Nee
+*** Decisions
+- Need to figure how to work with Cyber will work with our flow
+- Cyber needs to know what is being released
+*** Action Items
+**** DONE confirm with Benedict how long the data lives in Jira
+**** TODO Sophie - update the SoP so the people entering the data from jira to Avatar, that the jira data gets deleted
+**** TODO Veena to setup Nixon for him to test the return process
+**** DONE Ask the teams if they have installed the Synk and run it
+
+** Ernie Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-11 Wed 10:03]
+:ATTENDEES: Ernie squad
+:END:
+*** Agenda
+- Sprint 3 standup
+*** Notes
+- EMP-367
+  - data in red db looking good, another half day to go
+- EMP-254
+  - Still in progress
+- EMP-291
+  - migrated data to stage env
+  - Mukul needs to the pre-prod
+*** Decisions
+-
+*** Action Items
+
+** Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-11 Wed 10:13]
+:ATTENDEES: Bert Squad
+:END:
+*** Agenda
+- Sprint 3 standup
+*** Notes
+- EMP-275
+  - working in dev
+  - just raised PR
+  - for the demo it needs to be pre-filled with a lot of data, for the demo it needs to be filled
+- EMP-304
+  - Auth0
+  - CORS error should be fixed this morning
+  - staging is ready, just waiting for the data
+- EMP-318
+  - combined PR
+*** Decisions
+-
+*** Action Items
+**** DONE Fix the jira board, i can't move the tasks to PR
+**** DONE Get Aditi into Jira projects
+
+** PowerBI squad reporting :meeting:
+:PROPERTIES:
+:DATE: [2025-06-11 Wed 11:48]
+:ATTENDEES: Andrew M, Pierre L, Dan R
+:END:
+*** Agenda
+- Showcase PowerBI reporting
+*** Notes
+- Lightweight talk about PowerBI pulling data from jira to use to help automate the weekly reporting for the program
+*** Decisions
+-
+*** Action Items
+**** TODO Consider a new board in Employer project based on the team
+
+** Business Design Authority :meeting:
+:PROPERTIES:
+:DATE: [2025-06-12 Thu 09:36]
+:ATTENDEES: Subbu, Scott, Mike S, Kate, Agnes, Jeremy, David G, Michael S, Brent, Alison, Mark, Marianne, Jenelle, Georgia, Jenn
+:END:
+*** Agenda
+- Salesforce partner
+*** Notes
+- J4rvis is the recommended partner
+  - from salesforce assessment of their partner, they scored the best out of all 3
+  - CEO attended our sessions, reflects well
+  - Comfortable with agile and align with LP governance model
+  - $720,000 this includes contingency at 20%
+    - Jarvis proposed $600
+  - 20 week project
+  - 8 weeks of discovery
+  - 10 weeks of build
+  - 4 weeks of test and deploy
+  - 2 weeks of hypercare
+- The plan is completely waterfall
+*** Decisions
+-
+*** Action Items
+
+** Ernie standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-12 Thu 10:04]
+:ATTENDEES: Ernie squad
+:END:
+*** Agenda
+- Sprint 3 standup
+*** Notes
+- EMP-367
+  - needs to get a review on this ASAP
+    - Thomas to look at it
+- EMP-369
+  - bug fix still in progress
+  - just the returnsAPI that is problematic
+- EMP-254
+  - close to complete
+- EMP-291
+  - data is migrated, in peer review
+*** Decisions
+-
+*** Action Items
+**** DONE keep working on the jira board :squad:
+
+** Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-12 Thu 10:14]
+:ATTENDEES: Bert Squad
+:END:
+*** Agenda
+- Sprint 3 standup
+*** Notes
+- EMP-275
+  - Error message not urgent for UAT
+  - using service bus
+  - need to check what happens when a ticket is deleted
+- EMP-304
+  - staging is done
+- EMP-318
+  - resolving some bugs, working with Megan
+  - if we can resolve it will be part of UAT
+- Staging
+  - close to working
+- Code freeze still in place, while UAT is happening
+*** Decisions
+-
+*** Action Items
+**** DONE let Kate and nixon know we can delete the data manually from jira
+**** DONE chase kylie on permissions for delete in jira
+
+** Backlog refinement Ernie :meeting:
+:PROPERTIES:
+:DATE: [2025-06-12 Thu 11:07]
+:ATTENDEES: Ernie squad
+:END:
+*** Agenda
+- Backlog sprint 4 refinement
+*** Notes
+- added EMP-422 to current sprint, as it is the most important bit of work
+  - field in db called return type
+    - regular
+    - backdated which has no cycle
+      - it will be one return regardless of how many quarters or FY years
+- Backlog health is terrible
+- Need to constrain the scope of a backdated return to only the employer start date period
+*** Decisions
+-
+*** Action Items
+**** TODO need a story to understand how the backdated return is generated
+***** we could clear out the days and wages and set it to 0
+***** we need to walk the user journey for this experience
+**** TODO Sprint 5 user stories for Ernie needs work
+
+** Weekly Program meeting :meeting:
+:PROPERTIES:
+:DATE: [2025-06-12 Thu 13:48]
+:ATTENDEES: Brent, Alison, Sakshi, Dan, Jenn, Aneta
+:END:
+*** Agenda
+- Review action reg
+*** Notes
+- Jira to be cleaned up
+- Teams need to get closer to how support teams are working and how they are interacting with members
+*** Decisions
+-
+*** Action Items
+**** TODO need to orgranise time for the squad to sit with member support team to see how they work
+**** TODO chat with Andrew about the release roadmap from Bob squad
+**** DONE Raise the risk on not building out the backend features in Pi4 but rather focused on the frontend only
+
+** Ernie Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-13 Fri 10:04]
+:ATTENDEES: Ernie Squad
+:END:
+*** Agenda
+- sprint 3
+*** Notes
+- EMP-254(santosh)
+  - currently unit testing it
+  - continue with the cypress testing
+*** Decisions
+-
+*** Action Items
+**** TODO check on fix version for jira, for when stories go to done
+
+** Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-13 Fri 10:17]
+:ATTENDEES: Bert squad
+:END:
+*** Agenda
+- Sprint 3
+*** Notes
+- EMP-275
+  - close to closing out
+- EMP-302
+  - some Auth0 changes
+    - currently using Auth0 using internalAPI auth0 API, security concern
+    - Megan is aware, Megan will make application changes, to use EmployerAPI insteand of AUth0API
+    - SSO is off for employer application, user getting refresh token issues
+- EMP-318
+  - spent all morning yesterday fixing the bugs
+  - discrepancy between local setups
+- EMP-373
+  - Tess pulling all feedback from the employer yesterday
+  - Internal 1:30-3:00
+  -
+*** Decisions
+-
+*** Action Items
+
+** Tech Program weekly :meeting:
+:PROPERTIES:
+:DATE: [2025-06-13 Fri 11:03]
+:ATTENDEES: David L, David Gleeson, Scotty
+:END:
+*** Agenda
+- Weekly review of tech
+*** Notes
+- STP is purely to report to the ATO
+- Tech leadership
+  - want to make development fast
+  - we are currently really slow
+- Salesforce imp plan, not good
+  - DL will look through it today
+  - Sami suggesting to put vendor on the hook to deliver
+- Separate out Digital product out from the transformation
+  - Ferris built a product roadmap, separate to an elevate roadmap
+- Salesforce hiring - Functional lead coming, Solution Arch out in market
+*** Decisions
+-
+*** Action Items
+**** DONE David Lang to question delivery in December Salesforce
+**** DONE Follow up with Cyber on the jira Return data to be deleted
+
+** Standup Ernie :meeting:
+:PROPERTIES:
+:DATE: [2025-06-16 Mon 10:02]
+:ATTENDEES: Ernie Squads
+:END:
+*** Agenda
+- Sprint 3 standup
+*** Notes
+- EMP-254
+  - implementation done
+  - cleaning and refactoring
+- EMP-422
+  - just started
+- EMP-369
+  - 80% fixed, not sure if it makes sense to fix the remaining 20%
+    - will come back to it later.
+*** Decisions
+-
+*** Action Items
+
+** Standup Bert :meeting:
+:PROPERTIES:
+:DATE: [2025-06-16 Mon 10:15]
+:ATTENDEES: Bert Squad
+:END:
+*** Agenda
+- Sprint 3 standup
+*** Notes
+- EMP-275
+  - sub-tasks still awaiting approvals
+  - creation of generic user for Jira
+- EMP-304
+  - Pre-prod is ready, so will work today on it
+- EMP-318
+  - still resolving the bug
+- EMP-373
+  - Jenelle working on priorities
+- EMP-442
+  - Login issue
+  - Login issues with Dev, seems to be different to staging
+  - shouldn't be anything to do with Data
+  - got help with Dave Gardiner, but can't resolve yet
+*** Decisions
+-
+*** Action Items
+**** TODO Awaiting John Sneddon about generic user, will show and tell from Benedict what we are doing. Need a service account, Scotty to help
+
+** Catch up with Gleeson :meeting:
+:PROPERTIES:
+:DATE: [2025-06-16 Mon 11:31]
+:ATTENDEES: David Gleeson
+:END:
+*** Agenda
+- Job review
+- Speed flow up in the system
+- share between the delivery leads
+*** Notes
+- Frankie One - Identity management
+- Seal team six
+- And the SmartPhone App
+- Consider with Izaak going on leave, think about moving an engineer over to Bob squad
+- Feedback
+  - Change System test, to Product Quality/verfication
+  - check the correct evnironment works for Veena, i.e. Salesforce integration
+- Hopefully security will fade away, and would better focus on design
+*** Decisions
+- What does Brent need from a Progam management perspective
+*** Action Items
+
+** Standup Ernie :meeting:
+:PROPERTIES:
+:DATE: [2025-06-17 Tue 10:04]
+:ATTENDEES: Ernie Squad
+:END:
+*** Agenda
+- Sprint 3 standup
+*** Notes
+- EMP-254
+  - scheme feedback, however it would affect the other team
+  - need to work on creating the data structure
+    - should have a separate data strcuture from Bert
+- EMP-404
+  - work is progressing
+  - no blockers
+  - implementation done by EOD
+*** Decisions
+-
+*** Action Items
+
+** Bert Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-17 Tue 10:15]
+:ATTENDEES: Bert squad
+:END:
+*** Agenda
+- Sprint 3 standup
+*** Notes
+- EMP-275
+  - two tasks still in PR
+  - Create a generic user - is with Scott
+- EMP-304
+  - Auth0 is getting closer, pre-prod
+- EMP-318
+  - still stuck, bugs
+  - Jason and Thomas having differing approahes
+  - AG-Grid decides when and what data is sent and updated through it's async approach
+*** Decisions
+-
+*** Action Items
+**** TODO Follow up with Scotty on EMP-441
+
+** PR review :meeting:
+:PROPERTIES:
+:DATE: [2025-06-17 Tue 10:42]
+:ATTENDEES: Ashita, Jason, Benedict, Santosh
+:END:
+*** Agenda
+- Review the AG-Grid implementation by Santosh
+*** Notes
+- Should we be treating backdated the same way as returns
+- Breakout of backdated into financial years, and quarters
+- struggling to work with one list
+- do we want backdating to run in quarters
+- and why is backdating grouped in with normal quarter returns
+*** Decisions
+-
+*** Action Items
+**** TODO Speak to Jenelle about backdating being treated the same as a normal return
+
+** Sponsor catch up :meeting:
+:PROPERTIES:
+:DATE: [2025-06-17 Tue 11:11]
+:ATTENDEES: Katryn
+:END:
+*** Agenda
+-
+*** Notes
+ - 92,000 that are not registered, understand them and get to know them
+   - in convo with Tessa, they won't talk to us directly
+     - can target big groups of accountants
+     - need to find and gain insights from
+*** Decisions
+-
+*** Action Items
+**** TODO gain insights from non-compliant employers
+**** TODO is it they defer all their obligations to their book keepers and the book keepers don't know
+**** TODO Come back to Catryn on the outcome of Salesforce implementation plan
+
+** Hyprcare :meeting:
+:PROPERTIES:
+:DATE: [2025-06-17 Tue 14:20]
+:ATTENDEES: Jessica, Naleena
+:END:
+*** Agenda
+- EMP-398
+- WOR-522
+- 30th of June is go-live date for returns
+- EMP-432
+*** Notes
+- Need to do something about training material
+*** Decisions
+-
+*** Action Items
+**** TODO reach out to Nikki and Matt about the use of MPS for defects coming in from the retuns form when it goes live
+**** DONE Develop a release plan
+
+** Sponsor & squad catch up :meeting:
+:PROPERTIES:
+:DATE: [2025-06-17 Tue 16:12]
+:ATTENDEES: Jenelle, Catryn, Nha
+:END:
+*** Agenda
+- General update
+*** Notes
+- Jeremy hasn't reviewed Nha's work, will need help reviewing, as his availability is tight
+- need to solve for unique identifier
+  - will it move to register
+  - can't do email address
+*** Decisions
+-
+*** Action Items
+**** TODO move the risk to program level risk not employer risk - EMP-439
+
+** Sprint 3 Review :meeting:
+:PROPERTIES:
+:DATE: [2025-06-18 Wed 09:30]
+:ATTENDEES: Jenelle, Justin, Jason, Navid, Benedict, Thomas, Santosh
+:END:
+*** Agenda
+- Sprint 3 review
+*** Notes
+- EMP-318
+  - consider the next step and how and when the data is written to the database
+    - write to database on the input of the reason/resolve error
+    - new user-story
+- EMP-255 - backdated return
+  - upcoming generation of data
+-
+*** Decisions
+-
+*** Action Items
+**** DONE find the figma file for employer and share with Aditi
+**** TODO find time next week with Andrew to learn how to get user story progress data out of PowerBI
+SCHEDULED: <2025-06-24 Tue>
+
+** Sprint 3 retro :meeting:
+:PROPERTIES:
+:DATE: [2025-06-18 Wed 10:41]
+:ATTENDEES: Jason, Thomas, Justin, Megan,Benedict, Santosh
+:END:
+*** Agenda
+- Retro sprint 3
+*** Notes
+- need more honesty in the standups
+- smaller stories, with small sub-task peer review
+- visibility and sync sessions
+  - feeling out of sync of env and auth
+- Start doing
+  - production support
+  - when planning UAT
+    - hoped to rely on standard features of Azure
+    - engineers didn't have access
+    - had to build standard azure features that we couldn't use/gain access to
+    - Megan had to work long hours, build a little admin page, to allow UAT to happen
+    - Engineers are locked out, David Gardiner didn't have access
+    - troubleshooting env's, it is a lot of guess work
+      - only insights is from DataDog logs
+      - in many cases it fails silently
+  - shared calendar
+    - celebration for the worker team, but it was day before external UAT,which was bad timing
+    - can we be clearer with all teams
+  - Azure is as invisible as an on-term server handled by a separate team
+    - Accessibility for Devs(Dev), and Dave Gardiner, can access without asking
+      - only have visibility of CosmosDB
+    - Megan, David doesn't have all access
+      - have an interesting architecture, very spread out,
+      - which is good, but hard to setup
+      - slight differences with worker,adding time, e.g. auth not done through Avatar for employer, so new learnings
+      - needing to use Jira
+  - Not able to pin point where backlog items fit and how they relate to one another
+    - and not addressing the legacy data in the user stories
+    - told by architecture we would make the data up
+  - Avatar has features and capability to solve admin issues
+    - i.e. how avatar helps to support the user
+    - want to learn from what made Avatar worked for decades
+  -
+*** Decisions
+-
+*** Action Items
+**** TODO need analysis on azure DevOps don't have full control, engineers not trusted :retro:
+
+** Sprint 4 planning :meeting:
+:PROPERTIES:
+:DATE: [2025-06-18 Wed 11:44]
+:ATTENDEES: Bert squad
+:END:
+*** Agenda
+-
+*** Notes
+- EMP-367 is needed for Production provisioning
+  - don't know if scripts need to change for production
+  - don't know if pipeline exists for production
+  - need some unit tests on the script
+  - concern that the CSV is not showing up
+    -
+- For prod, need auth
+  - Ran to give config details for Auth0 for production
+*** Decisions
+-
+*** Action Items
+**** TODO check with Naleena that employers have up-to-date worker list
+
+** Ernie sprint planning :meeting:
+:PROPERTIES:
+:DATE: [2025-06-18 Wed 13:06]
+:ATTENDEES: Thomas, Santosh, Justin
+:END:
+*** Agenda
+- Sprint 4 planning
+*** Notes
+- EMP-422
+  - rules around the data structure
+  - the trigger point for the generation - separate a story
+*** Decisions
+- saving of the grid
+*** Action Items
+
+** Catch up with Scotty :infra: :meeting:
+:PROPERTIES:
+:DATE: [2025-06-19 Thu 09:33]
+:ATTENDEES: Scotty
+:END:
+*** Agenda
+- Infra
+*** Notes
+- not following up with the right people
+*** Decisions
+-
+*** Action Items
+
+** Ernie standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-19 Thu 10:06]
+:ATTENDEES: Santosh, Jenelle, Justin, Veena, Ran, David Gardiner
+:END:
+*** Agenda
+- Sprint 4 standup
+*** Notes
+- issues with staging not working
+- Not much to discuss, as it is day 1 of new sprint
+*** Decisions
+-
+*** Action Items
+
+** Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-19 Thu 10:16]
+:ATTENDEES: Bert squad
+:END:
+*** Agenda
+- Sprint 4 standup
+*** Notes
+- Need access to Azure functions
+  - don't have access, can have access
+  - Megan and David G should have access, all the devs
+  - Need to be able to run them as well as see them
+- EMP-304
+  - no much
+- EMP-318
+  - PR up, will review
+- EMP-433 :testing:
+  - reviewing playwright right now
+  - working with John and vish to unblock the pipeline to make tests work better
+- EMP-442
+  - David G put in a PR for this
+  - might have a fix, needs a test on dev
+
+*** Decisions
+-
+*** Action Items
+
+** Delivery lead chat :meeting:
+:PROPERTIES:
+:DATE: [2025-06-19 Thu 10:44]
+:ATTENDEES: Dave L, Dave G, Brent
+:END:
+*** Agenda
+- Scope of Program
+*** Notes
+- Dave Gleeson to take over from me
+- I'll take over Bert & Ernie and Seal Six team
+*** Decisions
+-
+*** Action Items
+
+** Program standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-19 Thu 13:43]
+:ATTENDEES: Alison, Jenn, Andrew M, Brent, Sakshi
+:END:
+*** Agenda
+- Weekly check in
+*** Notes
+-
+*** Decisions
+-
+*** Action Items
+**** TODO consider breaking up the kanban board based on releases
+
+** Ernie Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-20 Fri 10:02]
+:ATTENDEES: Ernie Squad, John S, Yi Liu, Vish, Mukul
+:END:
+*** Agenda
+- Sprint 3 standup
+*** Notes
+- EMP-406
+  - ReturnsAPI debugger issues
+- EMP-404
+  - deferred to support Bert
+- EMP-422
+  - started on spliting out the FY and quarter breakout
+*** Decisions
+-
+*** Action Items
+
+** Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-20 Fri 10:16]
+:ATTENDEES: Bert
+
+:END:
+*** Agenda
+- Sprint 3 standup
+*** Notes
+- EMP-304
+  - Auth0 config for prod
+    - still on-going with bugs, but doesn't hold us up
+      - need to raise a change request
+      - EMP-437
+      - EMP-442
+    - EMP-471
+      - progressing well, tests are passing
+      - pipeline issues
+- EMP-318
+  - Resolved errors yesterday, doing a final test
+  - one/two tests are failing
+- EMP-431
+  - changes implemented
+- EMP-433
+  - in the background, while trying to solve other issues
+- EMP-507
+  - need to tweak some terraform scripts, should be finished today
+*** Decisions
+-
+*** Action Items
+**** TODO reach out to Nixon, the instructions aren't enough
+**** TODO update Nixon on upcoming release
+**** DONE include Jess and Jenelle in the go/no-go meeting
+
+** Tech Program Meeting :meeting:
+:PROPERTIES:
+:DATE: [2025-06-20 Fri 11:02]
+:ATTENDEES: David Lang, David Gleeson, Scotty
+:END:
+*** Agenda
+- Elevate tech
+*** Notes
+- 5 more devs
+- need to build the backend capability
+- Release strategy
+  - standardise the release process
+- Salesforce, getting it up and functional
+  - so work comes from the squads, not Salesforce team
+  - still suggesting 3 months to stand it up
+  - have access to it now
+*** Decisions
+-
+*** Action Items
+**** TODO work with David Gleeson on release plan
+
+** Ernie Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-23 Mon 10:02]
+:ATTENDEES: Ernie squad
+:END:
+*** Agenda
+- Sprint 3
+*** Notes
+- EMP-406
+  - up for peer review
+- EMP-422
+  - generating the split is progressing
+  - will need to run past some of the dev's on the solution
+  - helping Bert with some bug
+- EMP-404
+  - haven't had a chance yet, working on Bert
+*** Decisions
+-
+*** Action Items
+
+** Standup Bert :meeting:
+:PROPERTIES:
+:DATE: [2025-06-23 Mon 10:17]
+:ATTENDEES: Bert sqaud, Ran
+:END:
+*** Agenda
+- Sprint 3
+*** Notes
+- EMP-275
+  - emp-420 will be done once day reason is checked in
+    - will run quick test
+- EMP-318
+  - Thomas and Jason worked through some ReturnAPI errors
+  - have implemented Thomas' solution
+  - broke a few things in the pulling of the branch
+- EMP-304
+  - config issues
+    - rebuilt Azure function.
+    - Got issues with Pre-prod, but should be able to fix this morning
+    - concerns about second region
+  - EMP-473
+    - 1 out of 5 users failing
+      - is working in dev env
+      - don't have access to staging
+      - working with Vish at 11:00am today
+    - EMP-413
+      - raised CR and waiting for approval
+    - EMP-471
+      - Justin is close to completing
+  - EMP-431
+    - put a PR up for this
+    - however, broken Cypress test in dev
+  - EMP-503
+    - dev's still can't trigger functions
+    - might be hard because of network restrictions, because they are locked down :platforms:
+  -
+*** Decisions
+-
+*** Action Items
+
+** Release check in :meeting:
+:PROPERTIES:
+:DATE: [2025-06-23 Mon 13:28]
+:ATTENDEES: Jess, Matt, Scott, Dave G, Nikki, Veena, John S, David Gardiner, Naleena, Vish,
+:END:
+*** Agenda
+- Micro Release Plan
+*** Notes
+- plan and details kept:https://coinvestwiki.atlassian.net/wiki/spaces/DM/pages/2890760223/Release+Plan
+*** Decisions
+-
+*** Action Items

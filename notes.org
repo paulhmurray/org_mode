@@ -1,0 +1,13 @@
+#+TITLE: Day to Day Notes on anything
+#+AUTHOR: Paul Murray
+* Notes
+** Status reporting
+*** PI objectives
+**** 1. Returns experience for small employers with basic validataions developed and tested with a small group of employers
+**** 2. Backdated returns experience for small employers with basic validations developed and tested with a small group of employers
+**** 3. Translation of Rules, Policies and Act into logic for Returns. PoC Completed.
+** Jira board
+Based off the tech enablement updates I've been asking for create a board for each functional area, make each area an epic. That way, tasks or user stories can fit underneath them.
+
+Entered on [2025-06-11 Wed 14:24]
+  [[file:~/org/todo.org::*Create a jira board based off of the status reports I've gathered from the tech enablement function][Create a jira board based off of the status reports I've gathered from the tech enablement function]]

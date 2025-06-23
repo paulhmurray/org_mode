@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       5bfdc257-d03e-48c7-8fb8-9c217c534866
+:END:
+#+title: #+title: Third file
+Third file
+[[id:ddcdc7fb-fd91-450b-8224-fa19c33d7c50][#+title: Second-new-file]]

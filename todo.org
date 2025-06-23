@@ -1,0 +1,6 @@
+#+title: Todo
+
+* Inbox
+
+** TODO Create a jira board based off of the status reports I've gathered from the tech enablement function
+** TODO Create some pre-reading for the user story mapping session next Thursday to set the scene

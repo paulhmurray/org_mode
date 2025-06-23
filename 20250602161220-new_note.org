@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d532d41f-d72d-4fda-b9df-beb0493c18f0
+:END:
+#+title: #+title: New-note
+Writing my first zettel note
+
+Just not sure what to write in here

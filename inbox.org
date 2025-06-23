@@ -1,0 +1,11 @@
+#+title: Inbox
+
+* Tasks
+** DONE Need to get this to do done
+  [2025-06-04 Wed 20:54]
+  [[file:~/.doom.d/config.el::;; ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-]]
+** DONE A new todo from the inbox.org file
+  [2025-06-06 Fri 14:18]
+  [[file:~/org/meetings.org::*Notes][Notes]]
+* DONE a todo from inbox
+SCHEDULED: <2025-06-05 Thu>

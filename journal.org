@@ -1,0 +1,35 @@
+#+title: Journal
+#+author: Paul
+* 2025
+** 2025-05 May
+*** 2025-05-24 Saturday
+**** [2025-05-24 Sat 18:47]
+
+[[file:~/WIP/GoLLM/main.go::func main() {]]
+The start of Tensor discovery work using Go
+*** 2025-05-29 Thursday
+**** [2025-05-29 Thu 21:37]
+Figuring out how to work emacs. Wondering if I should really be doing this, or just remain with NeoVim. I like some of the features and the built in keybindings, particularly around coding, with running tests.
+** 2025-05 May
+I feel a little foolish for getting so upset this week from work. I put some hope into improving the work I'm doing, and having an impact. I went into a meeting unguarded and not ready, thinking, I had support, when I didn't. The rug was pulled out and I was left feeling very upset. I've had some good support from my bosses, and been surprised by it's usefulnesss. I am now in a better frame of mind to tackle work, and get back to making a difference. I think it is important to have everyone on side, rather than pushing against the tide.
+** 2025-06 June
+
+*** 2025-06-04 Wednesday
+
+*** 2025-06-09 Monday
+
+**** 18:35 Daily
+Tough day all round for the family with a bug affecting everyone at home. The long weekend was an overall great success for Willow, she had a lovely sleepover with her friends. Thankfully she managed a recovery, getting sick only days beforehand.
+Katie and I are now the worse affected. Hopefully with some medicine we can recover quickly.
+Keen to get stuck into my training, my running is starting to become a little easier, so I can turn into that, however, I need to up the amount of lifting I'm doing.
+Work is tiresome, but could turn to rewarding, should a few structural things fit into place.
+TownCentre is showing promising, I've taken quiet a break from it now and notice, that I'm thinking about it again and all the promise it holds. I've a long list of improvements to make, and keen to start getting stuck into them.
+Entered on [2025-06-09 Mon 18:35]
+
+*** 2025-06-10 Tuesday
+
+**** 22:35
+Sick, with a cold.
+Frustrated I can't train, excited for my next run and lifting session
+Work is going better, I feel more at more in the mess, getting stuck into the details and trying to find a way through. I am noticing, a lack of confidence around the tech enablement work. I really need to turn into this and action it. I can start by creating the kanban to reflect all the pre-action activities that lead up to a team taking on the work and getting it done. I think, I'm best just trying to manage it and stay consistent. I feel annoyed that I have stopped doing it so much.
+Entered on [2025-06-10 Tue 22:35]

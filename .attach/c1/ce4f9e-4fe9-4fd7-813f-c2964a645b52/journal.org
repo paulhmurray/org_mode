@@ -1,0 +1,8 @@
+#+title: Journal
+* 2025
+** 2025-05 May
+*** 2025-05-24 Saturday
+**** [2025-05-24 Sat 18:47]
+
+[[file:~/WIP/GoLLM/main.go::func main() {]]
+The start of Tensor discovery work using Go
