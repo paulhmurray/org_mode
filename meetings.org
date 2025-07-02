@@ -308,7 +308,7 @@ CLOCK: [2025-05-30 Fri 16:37]
 - there is a conflict
 *** Action Items
 **** TODO Get Thomas koster correct location to document how feature toggles work
-**** TODO Need to work with Worker squad to understand who is using what env
+**** OKAY [#B] Need to work with Worker squad to understand who is using what env
 
 ** Bert Standup :meeting:
 :PROPERTIES:
@@ -761,7 +761,7 @@ CLOCK: [2025-05-30 Fri 16:37]
 *** Decisions
 -
 *** Action Items
-**** TODO Awaiting John Sneddon about generic user, will show and tell from Benedict what we are doing. Need a service account, Scotty to help
+**** DONE Awaiting John Sneddon about generic user, will show and tell from Benedict what we are doing. Need a service account, Scotty to help
 
 ** Catch up with Gleeson :meeting:
 :PROPERTIES:
@@ -825,7 +825,7 @@ CLOCK: [2025-05-30 Fri 16:37]
 *** Decisions
 -
 *** Action Items
-**** TODO Follow up with Scotty on EMP-441
+**** DONE Follow up with Scotty on EMP-441
 
 ** PR review :meeting:
 :PROPERTIES:
@@ -843,7 +843,7 @@ CLOCK: [2025-05-30 Fri 16:37]
 *** Decisions
 -
 *** Action Items
-**** TODO Speak to Jenelle about backdating being treated the same as a normal return
+**** DONE Speak to Jenelle about backdating being treated the same as a normal return
 
 ** Sponsor catch up :meeting:
 :PROPERTIES:
@@ -918,7 +918,7 @@ CLOCK: [2025-05-30 Fri 16:37]
 -
 *** Action Items
 **** DONE find the figma file for employer and share with Aditi
-**** TODO find time next week with Andrew to learn how to get user story progress data out of PowerBI
+**** DONE find time next week with Andrew to learn how to get user story progress data out of PowerBI
 SCHEDULED: <2025-06-24 Tue>
 
 ** Sprint 3 retro :meeting:
@@ -1230,3 +1230,189 @@ SCHEDULED: <2025-06-24 Tue>
 *** Decisions
 -
 *** Action Items
+
+** Ernie standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-26 Thu 10:01]
+:ATTENDEES: Ernie, John S,
+:END:
+*** Agenda
+- Sprint 4
+*** Notes
+- EMP-393
+  - dev and unit test done, and cypress test
+- EMP-422
+  - have a draft PR
+- EMP-404
+  - in progress, PR coming up
+-
+*** Decisions
+-
+*** Action Items
+
+** Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-26 Thu 10:15]
+:ATTENDEES: Bert, Scotty,Ran, John S, Vish
+:END:
+*** Agenda
+- Sprint 4
+*** Notes
+- EMP-304
+  - Auth0
+    - made pull request for prod
+    - EMP-477
+      - pre-prod is done
+      - need to confirm if prod is ready for data migration
+      - John S will get prod ready today
+    - EMP-474 done
+    - EMP-475
+      - ran into issues
+    - Jira not working in pre-prod EMP-545
+- EMP-535
+  - up for peer review
+  - Naleena happy with updates
+*** Decisions
+-
+*** Action Items
+
+** Ernie standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-27 Fri 10:05]
+:ATTENDEES: Ernie squad
+:END:
+*** Agenda
+- Sprint 4
+*** Notes
+- EMP-404
+  - writing tests with them
+- EMP-393
+  - almost ready for review
+*** Decisions
+  -
+*** Action Items
+**** TODO will need validations on the fields for backdated returns
+
+** Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-27 Fri 10:16]
+:ATTENDEES: Bert squad
+:END:
+*** Agenda
+- Sprint 4
+*** Notes
+- EMP-304
+  - EMP-477 & EMP-547 for sophie to check it works
+  - EMP-413
+    - prod is done
+    - David G to validate
+  - EMP-435
+    - building right now, almost done
+  - EMP-475
+    - update data in pre-prod and load the prod and pre-prod with fresh data
+  - EMP-545
+    - working through with Megan, Ashita resolving this, David G put in the correct env values.
+    - will re-test this morning through Veena
+*** Decisions
+-
+*** Action Items
+**** TODO will need to implement the backup plan, of taking the JSON form Cosmos and sharing it with ringfence team, if we can't get the CSV generation and loading of Jira.
+
+** Tech Prog Weekly :meeting:
+:PROPERTIES:
+:DATE: [2025-06-27 Fri 11:01]
+:ATTENDEES: Scotty, Dave L, Dave G, Rohan
+:END:
+*** Agenda
+- weekly tech review
+*** Notes
+- need to work with Salesforce team to explain what we need for employer capability
+- Rules Engine
+  - we don't have a viable solution
+*** Decisions
+-
+*** Action Items
+**** TODO get Johan/Subbu to look into Azure options around Rules as Code
+
+** Ernie standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-30 Mon 10:01]
+:ATTENDEES: Ernie squad, Chris Gilbert, Vish, John S, Ran
+:END:
+*** Agenda
+ - Sprint 4 standup
+*** Notes
+- EMP-232
+  - started save draft on Friday
+  - schema done, FE done
+  - more testing required
+- EMP-422
+  - slight change of plan
+  - requirements slightly off, last FY not all quarters, only up to current quarter
+- EMP-404
+  - close to completion
+  - currently dealing with a merge conflict
+*** Decisions
+-
+*** Action Items
+
+** Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-06-30 Mon 10:13]
+:ATTENDEES:
+:END:
+*** Agenda
+- Sprint 4 standup
+*** Notes
+- David Gardiner leaving
+- Megan taking some leave
+- has jira in production
+  - Sophie to take Benedict through with and restrict access on the jira project to a select number of people
+*** Decisions
+-
+*** Action Items
+
+** Ernie Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-07-01 Tue 10:02]
+:ATTENDEES: Ernie squad,Ran, Vish
+:END:
+*** Agenda
+- Sprint 4
+*** Notes
+- EMP-232
+  - dev done, up for PR
+- EMP-422
+  -
+*** Decisions
+-
+*** Action Items
+
+** Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-07-01 Tue 10:17]
+:ATTENDEES: Bert squad, Vish, Jenelle, Ran
+:END:
+*** Agenda
+- Sprint 4
+*** Notes
+- will look at prod logging to see how performance is going
+- testing the timeout settings, to fix the 15 minute elapsed auto logout
+*** Decisions
+-
+*** Action Items
+**** TODO organise team lunch for the returns release
+
+** Backlog readiness Employer :meeting:
+:PROPERTIES:
+:DATE: [2025-07-01 Tue 11:23]
+:ATTENDEES: Naleena, Sophie, Koshica
+:END:
+*** Agenda
+- Sprint 5 readiness
+*** Notes
+-user story mapping not done, needs to get done
+*** Decisions
+-
+*** Action Items
+**** TODO Need to resolve the duplicate email address for employers, currently they have one email to multiple companies, and each company needs a unique email
