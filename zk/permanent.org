@@ -1,0 +1,14 @@
+* Permanent
+              * Perm Note 1 :permanent:
+              :PROPERTIES:
+              :CUSTOM_ID: 20250819225233-perm-note-1
+              :END:
+              ** Claim
+              some things
+              ** Elaboration
+              - more things about this new note
+              ** Related
+              - [[file:~/Dropbox/org/zk/permanent.org:: {Perm perm-note-1}]]
+              - []
+              ** Created: [2025-08-19 Tue 22:52]
+              

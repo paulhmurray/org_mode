@@ -11,3 +11,27 @@ Based off the tech enablement updates I've been asking for create a board for ea
 
 Entered on [2025-06-11 Wed 14:24]
   [[file:~/org/todo.org::*Create a jira board based off of the status reports I've gathered from the tech enablement function][Create a jira board based off of the status reports I've gathered from the tech enablement function]]
+
+  [2025-07-27 Sun]
+  [[file:::27]]
+* Go Channels
+  A channel in Go, is like a pipe that connects two people. 
+  One person can put things into the pipe, and the other person takes things out
+
+  -----
+  How it works:
+
+** if you put a toy into the pipe (ch <- toy), you have to wait until the other kid takes it out (<-ch)
+
+** if the other kid tries to grab the toy before you have put it in, well, there is just nothing there for them to grab
+
+   ch := make(chan string)
+   go func() {
+   ch <- "ball"
+   }()
+   
+   toy := <- ch
+   fmt.Println("Got the", toy)
+
+  [2025-08-19 Tue]
+  [[file:::31]]

@@ -33,3 +33,105 @@ Sick, with a cold.
 Frustrated I can't train, excited for my next run and lifting session
 Work is going better, I feel more at more in the mess, getting stuck into the details and trying to find a way through. I am noticing, a lack of confidence around the tech enablement work. I really need to turn into this and action it. I can start by creating the kanban to reflect all the pre-action activities that lead up to a team taking on the work and getting it done. I think, I'm best just trying to manage it and stay consistent. I feel annoyed that I have stopped doing it so much.
 Entered on [2025-06-10 Tue 22:35]
+
+** 2025-07 July
+*** 2025-07-06 Sunday
+
+**** 07:02
+Not getting to TownCentre, envy of others achieving, while I sit around not making it happening is very disappointing.
+Not doing much exercise all round, and the majority of what I do is running, which is necessary, but I know, will make me thin and lose muscle, yet I prioritise it over weight lifting. I need to be strong and develop muscle.
+Daughters need help getting healthier, eating habits are poor, and their amount of movement is low. I need to somehow develop some trust, so perhaps what I am saying might meaning something. The amount of sugarly, carb heavy meals in their life seems very high.
+Katie is so unhappy, financially, we are stuck, as I want her to have the choice to step away from work, I just don't know how to pay for it. Part of me wants to relocate, start almost again finacially, and build the financial commitment up in proportion with our life priorities and what we can afford. Sydney seems like such a great answer in so many ways except the cost of living, which is the highest in Aus, so, really hard to live there, yet, much more sun for her, and the Uni to try and forge her career there, which I feel she would be happier with
+Entered on [2025-07-06 Sun 07:02]
+*** 2025-07-08 Tuesday
+**** 07:01
+   Glad to be back into building out TownCentre. I spent a little time on it last night and shipped a feature.
+   Entered on [2025-07-08 Tue 07:01]
+**** 22:37
+Listening to a pysch talking about addiction, I can't remember his name, Gabe(?). He made a great point about addiction, and an insight into why it comes about. This sense of wanting space from yourself. As if you aren't comfortable with yourself. Because you are in pain, there is pain sitting under the surface. You need to reflect onthe life you have lived and try and gain and understanding of why you may be in pain. What was it, that seemed lacking, that caused you to turn to the escape. Don't look to point at the addiction, that is merely the wrong tool, that was used to address it.
+We are very solution orientated, and when the tools we pick up are bad ones, it will resolve the pain, but won't address it for the long term. I definitely have some pain that I have not dealt with. Not popular, struggle to gain strong friendships, always feeling like I was at best, just one of the group, not a main friend with someone in group. A sort of sense that I was easily replaced. A lack of self worth, self critical, given I was a chubby, over weight kid, girls wouldn't want to get to know me. That I lacked socially, as I was very uncomfortable around others, particularly girls. I would rarely feel comfortable around others, which led to me withdrawing into myself, and focusing on other things. The pain of not feeling like I was worth loving, that I was not enough, and the rejection that seemed regularly in childhood and adolesences, seemed to strengthen my focus on becoming comfortable with being alone. I wonder, perhaps, that I didn't have siblings to go home to, perhaps, it contributed to further isolation. The way I see my girls now, how the almost force the other to talk when something isn't right. The both have a natural curiosity to one another when one of them is hurt. Right now, given how young they are, it seems misunderstood as a negative thing. But stepping back, I can see a care. Which I can only assume will grow with time, and help them talk life through with each other.
+I feel out of my body, to try and say to myself, I am enough, I am good enough. I quickly think of all the things that is not good, or ideal. Sits there waiting for me, to remind me, you are not enough, at least, not yet, as I turned 40, I am faced with the steally reality, that I may never be enough in this life. I may not accomplish, what I consider success. However, if I were to write down what success is, to draw the finsih line in the distant future, I wouldn't know how to articulate it, or where to place the finish line. Part of me, the better part, doesn't believe in a finish line, as I love to continually improve, however, the flip side, is holding me back. Holding me in a state of not knowing how to solve this lack of something. The house isn't big enough, my girls don't have enough holidays, my wife is trapped in a job she hates, I'm exhausted, alone, and living in a country that I don't want to live in(I love it here, but long for Ireland). 
+ Entered on [2025-07-08 Tue 22:37]
+*** 2025-07-13 Sunday
+**** 07:06
+     One more day, and we are off to Byron. It has been a challenging time for our family, as we realise the need to set firming boundaries with our girls. The moods are pretty unstable, and right now, I feel some level of blame toward how much time we are allowing on their iPads. As such it is going to be hard to get them off, and enforce time limits, but I must remind myself of how important this will be. Hopefully, once the bounds have been set, and soem adjustment time has happened, the girls will come to realise that it is not something that can be changed by asking. It is up to Katie and I to see this through. 
+     We also need to help with Katie feeling closer to the girls. A scheduled amount of minimum time with the girls will help. Maybe every Sunday afternoon, or something along those lines. 
+   Entered on [2025-07-13 Sun 07:06]
+*** 2025-07-20 Sunday
+**** 13:47
+    Been away for a lovely family trip to Byron Bay. We stayed at the CyrstalBrook resort(formerly Byron@Byron). We haven't been to this resort in many years. Almost 10 I think. How great it was to get away. To have some distance from day to day life seems to be such a strong catalyst to inspect how you are living, the choices you are making. 
+   Really feel we are not living in correct alignment. Katie is working too much, I am not earning enough, and our home is not how it should be. The initial solution, is to resolve Katie's work commitments, by uping the amount of money I'm earning. While TownCentre gets some time under the spot light, which I still need to make some significant improvments to it, I need to move ahead with project 2. Pulse! This will be a project management tool, that will allow me to sell to corporations running programs, that will make it easier to report on the health of a project. My target market will be ePMO's and PMO's(Project Management Offices). Part one, will be building the initial functionality. This should be an easy solve. A basic but consistent CRUD app. It will take time to build it, but it won't require hard Computer Science approaches. In fact, Pulse, won't require that at all. Nonetheless, part two, will be systemicatlly integrating with every project management application out there, to make the process of reporting, as seamless as possible. An application, that can, auto generate 60% - 90% of the report, and then for the Project Manager, Delivery lead(or whomever), to tweak and refine. The data inputs will come from the integration with other project management tools. However, this will be a challenge. As every organistion I have ever worked for, sets up their Project Management(PM) tools differently. Pulse will need to do that hard work, of parsing the incoming data, and adjusting it, so it makes sense to Executives, board members, etc. I'm really excited to take on this project. I will again, get to re-use my favourite tools, GoLang, HTMX and Tailwind, along with MariaDB. I will host it on Digital Ocean. To make this work, I'll need to establish a network of influencers in this space, people, such as Agile coaches, Program and Transformation Directors, who feel this tool makes their life so much easier. 
+   
+     I will need to focus, concentrate deeply, but not be percious. I will need to find the time to work on it, whenever I can. I've been through this once with TownCentre, so, sencond time round will help. 
+   
+     I don't have a pricing model. But this will need to be lucrative, however, the pricing needs to be simple, so CIO's will easily pay for it. What is easy for them, can be very profitable for me. 
+   Entered on [2025-07-20 Sun 13:47]
+*** 2025-07-27 Sunday
+**** 13:14
+    Good week complete at work. It was really enjoyable being in the office, and helping to create a great culture. I hope I can continue to take it to the next level. Big week coming up, will need to focus on providing the artifacts for better transparency. This coming week, I need to not put too much pressure on myself, to make it perfect for everyone. I need to drive clarity as best as I can.
+     Keep on top of some momentum with my training, at least training every second day. 
+     Need to keep some initial progress with training, and start to make some improvements with my diet, particularly, the amount of biscuits I'm eating while at work. 
+   Entered on [2025-07-27 Sun 13:14] 
+** 2025-08 August
+*** 2025-08-19 Tuesday
+**** 11:41
+    
+   Entered on [2025-08-19 Tue 11:41]
+*** 2025-08-22 Friday
+**** 21:44
+    Majority of my problems will pale after 8 hours of sleep and daily exercise.
+     Basically, just go to fucking bed on time. 10pm in bed, up at 6am. Pretty straight forward.
+   
+     Work is weighing on my mind. I don't have control over my team, again! I feel like a I'm some controlling person.
+     I need to use my experience to guide the team, and ensure they are focused on the right thing, but I'm struggling with so many people coming at me, trying to influence how I am running my teams. I need to be strong enough to stand up for what I believe, and how I want to run the team. I don't have confidence or belief in myself that I will deal with this, I don't have a belief that I will stick up for myself. I will convince myself, that I don't care, as some sort of self protecting crap. Of course I give a fuck, otherwise I wouldn't be doing as good a job. 
+     I'm bothered by the agile coach, the product owner, the Director of the program. 
+     Maybe I'm not good at dealing with others being heavy handed, because I'm not using the tools at my disposal. Who cares about my problems, people only care about their own problems. I need to tap into their prespective of the world, and reshape that to suit me. I need to understand who they are, so I can better control the situation. If I can control the situation,I can then focus on building really great software. If I build really great software, it will make finding my next role easier, because I will have spent time learning more, and be more informed. If I do all that, then I can continue to improve in providing for my family. 
+   
+     All of this starts with and will abruptly end with a lack of sleep, exercise and good food. Stop being an idiot, get your shit together and get on top of all of this. 
+   
+     Further to all this, working for other people is fucking shit, you know this, and you are letting TownCentre slip and you are not moving on REhearse app. Stop being so afraid of your own potential, and just work with it, create it, design it, build it, have fun. It's not scary, nothing has changed. If you are worried what others will think, they will think whether you act or you don't act. This is the constant. You must move beyond all of this. On the other side, of being aware and picky on what you give a fuck about is freedom. 
+   Entered on [2025-08-22 Fri 21:44]
+*** 2025-08-24 Sunday
+**** 22:01
+    Accept it the way it is. 
+     Distracted for 40 minutes tonight. I continue to waste alone time. If I continue this, I waste my life's opportunity to grow and build what i desire. 
+     I have a chance to teach and pass on what I know. I cannot waste this chance, it is my legacy. 
+   
+     With work, I have let my emotions, and insecurity cloud my rational mind. I must rectify this and move with what is there, not resist. Resistance can be appealing, but it lack effectiveness. We must move with, the afford the opportunity to redirect. 
+     Two nights of more sleep than normal, and still feeling exhausted. Perhaps this is still paying back the lack of sleep I have had for some time now. If I continue to remain strict to my sleep, I will have no choice but to be more effective during my waking hours. 
+   Entered on [2025-08-24 Sun 22:01]
+*** 2025-08-25 Monday
+**** 21:54
+    Reflecting on easily angered I have become. The control others have over me! This is a foolishness I knew better than at one point. To understand deeply, that I can't be controlled by others, unless I let them. If I let their energy in, they have hacked me, and can influence me, how they see fit. This is no good.
+     You have nothing to fear. You have nothing to hide. There is no wrong, there are only choices, and values that underlie them. What do you value, what do you hold to be true. 
+     Consistency in certain aspects of your life. Taking time to find out, firstly, what is it you do? Truly, dive deep into what you do. List them, and figure out how to make the most of them, so they add value to life, and the are not merely a means to an end. 
+   
+*** 2025-08-26 Tuesday
+**** 22:09
+    Overall a better day. Less mentally swayed, still not ideal. Better health, ran and better overall eating. No waste spending money on unnecessary things. Pleased that I didn't let the evening led me to being lazy. Pleased that I prepared lunch for girls and I and brekkie for Katie and I. 
+     Slow progress with developing the app, particularly with poor internet connection on the train. Nonetheless, I don't have time to fit the coding into any other timeslot mid-week. So, I must accept that slow progress is better than no progress.
+     Tomorrow is setup well, although I don't yet have a plan for the teams retro. I will need to sort this out quickly in the morning. I need to stay on top of moving all engineers forward with the implementation of the technology solution. This is so far, only with me. 
+   
+     Willow is developing well with her practice, I hope she can connect the extra practice with greater improvement and I hope this translates for her in competition, not because i want her to achieve, but I want her to see the rewards of her hard work. She is talented, but is doesn't take it for granted and is working hard. 
+     I hope Allegra can find a way to let out the competitive side to her and start training harder, I can see inside her, that it is there, but it feels like she keeps it contained. 
+   
+     I must remain calm at work, emotional-less. It is not a place for me to be easily swayed. Calmness, remaining connected to what is important is critical
+   Entered on [2025-08-26 Tue 22:09]
+*** 2025-08-29 Friday
+**** 23:15
+    Pretty good 24 hours of developing the app. Very excited about the door this has opened up. I can't ignore the need to read the documentation and not rely on AI. 
+     Got distracted from the main focus of the app again though. So, development could have been more. 
+   
+     Took a day off exercise today, feeling shift in the body and the mind. Yet, I'm up late, I really need to fix this discipline issue and just be in bed by 10pm every night. 
+     Work is stressful, a lot of people coming in regularly messing with my focusing, or wanting to get stuck into my team. It takes my focus and calm away. 
+   
+   Entered on [2025-08-29 Fri 23:15]
+** 2025-09 September
+*** 2025-09-08 Monday
+**** 21:44
+    Overall, started pretty stressed. Really worrying about the cost of the broken car. I do not know where the money is going to come from, or where the money for our upcoming wedding anniversary or Katie's birthday.
+     I felt like I was getting more on top of my money, but now, not so much. I did just crash our family car last Friday. 
+     Really shocked I crashed our car, I was so lucky nothing bad happened to the other driver, and nothing happened to our dogs or me. I knocked my head, but that was really it. The car body seems pretty ruined, I really hope it is only body damage. 
+     Today was more productive in the end, better sleep lately and managed to get some exercise in. I resist going to bed when I should, partly because during the day, it is so hectic, I don't really get much time for myself. So, once everyone is in bed, I have some time, but that results in my staying up late, and then I'm fighting my moods the next day. 
+   Entered on [2025-09-08 Mon 21:44]
+   

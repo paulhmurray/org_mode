@@ -2,5 +2,8 @@
 
 * Inbox
 
-** TODO Create a jira board based off of the status reports I've gathered from the tech enablement function
-** TODO Create some pre-reading for the user story mapping session next Thursday to set the scene
+** DONE Create a jira board based off of the status reports I've gathered from the tech enablement function
+   CLOSED: [2025-07-07 Mon 10:33]
+** DONE Create some pre-reading for the user story mapping session next Thursday to set the scene
+   CLOSED: [2025-07-07 Mon 10:33]
+* TODO Dev's need access

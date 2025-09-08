@@ -43,7 +43,7 @@
 - Handover Employer squads - Bert and Ernie
 *** Notes
 :LOGBOOK:
-CLOCK: [2025-05-30 Fri 16:37]
+CLOCK: [2025-05-30 Fri 16:37]--[2025-07-08 Tue 11:29] => 930:52
 :END:
 - Communication is happening on multiple fronts with teams groups and more recently with Teams channels
 - Mailbox setup for Bert and Ernie, all meeting invites come from this
@@ -235,13 +235,7 @@ CLOCK: [2025-05-30 Fri 16:37]
 **** DONE Speak to Jenelle asap about letting Nar go
 
 
-** Design Bert & Ernie :meeting:
-:PROPERTIES:
-:DATE: [2025-06-03 Tue 11:34]
-:ATTENDEES: Avi, Ner, Nha, Sophie
-:END:
-*** Agenda
-- Review upcoming designs
+** Design Bert & Ernie :meeting: :PROPERTIES: :DATE: [2025-06-03 Tue 11:34] :ATTENDEES: Avi, Ner, Nha, Sophie :END: *** Agenda - Review upcoming designs
 *** Notes
 - Nothing to update, worked upcoming designs for worker list
 *** Decisions
@@ -307,8 +301,10 @@ CLOCK: [2025-05-30 Fri 16:37]
 *** Decisions
 - there is a conflict
 *** Action Items
-**** TODO Get Thomas koster correct location to document how feature toggles work
-**** OKAY [#B] Need to work with Worker squad to understand who is using what env
+**** DONE Get Thomas koster correct location to document how feature toggles work
+     CLOSED: [2025-07-24 Thu 13:51]
+**** DONE OKAY [#B] Need to work with Worker squad to understand who is using what env
+     CLOSED: [2025-07-24 Thu 13:52]
 
 ** Bert Standup :meeting:
 :PROPERTIES:
@@ -395,7 +391,8 @@ CLOCK: [2025-05-30 Fri 16:37]
 *** Decisions
 -
 *** Action Items
-**** TODO Thomas to create a separate ticket in jira for EMP-85 documentation
+**** DONE Thomas to create a separate ticket in jira for EMP-85 documentation
+     CLOSED: [2025-07-24 Thu 13:54]
 
 ** Bert standup :meeting:
 :PROPERTIES:
@@ -449,7 +446,9 @@ CLOCK: [2025-05-30 Fri 16:37]
 -
 *** Action Items
 **** DONE raise the risk that design conversations are talking about end state, without any data/experimentation discussions
-**** TODO sophie to find out how the financial year is to be displayed :squad:
+     CLOSED: [2025-07-24 Thu 13:54]
+**** DONE sophie to find out how the financial year is to be displayed   :squad:
+     CLOSED: [2025-07-24 Thu 13:55]
 **** DONE need a task in jira to restrict email payment statement to be restricted to only 4 emails
 
 ** Security discussion on micro release for returns :meeting:
@@ -476,8 +475,10 @@ CLOCK: [2025-05-30 Fri 16:37]
 - Cyber needs to know what is being released
 *** Action Items
 **** DONE confirm with Benedict how long the data lives in Jira
-**** TODO Sophie - update the SoP so the people entering the data from jira to Avatar, that the jira data gets deleted
-**** TODO Veena to setup Nixon for him to test the return process
+**** DONE Sophie - update the SoP so the people entering the data from jira to Avatar, that the jira data gets deleted
+     CLOSED: [2025-07-24 Thu 13:55]
+**** DONE Veena to setup Nixon for him to test the return process
+     CLOSED: [2025-07-24 Thu 13:56]
 **** DONE Ask the teams if they have installed the Synk and run it
 
 ** Ernie Standup :meeting:
@@ -535,7 +536,8 @@ CLOCK: [2025-05-30 Fri 16:37]
 *** Decisions
 -
 *** Action Items
-**** TODO Consider a new board in Employer project based on the team
+**** DONE Consider a new board in Employer project based on the team
+     CLOSED: [2025-07-24 Thu 13:56]
 
 ** Business Design Authority :meeting:
 :PROPERTIES:
@@ -625,13 +627,16 @@ CLOCK: [2025-05-30 Fri 16:37]
       - it will be one return regardless of how many quarters or FY years
 - Backlog health is terrible
 - Need to constrain the scope of a backdated return to only the employer start date period
-*** Decisions
+*** DONE Decisions
+    CLOSED: [2025-07-24 Thu 13:54]
 -
 *** Action Items
-**** TODO need a story to understand how the backdated return is generated
+**** DONE need a story to understand how the backdated return is generated
+     CLOSED: [2025-07-24 Thu 13:54]
 ***** we could clear out the days and wages and set it to 0
 ***** we need to walk the user journey for this experience
-**** TODO Sprint 5 user stories for Ernie needs work
+**** DONE Sprint 5 user stories for Ernie needs work
+     CLOSED: [2025-07-24 Thu 13:56]
 
 ** Weekly Program meeting :meeting:
 :PROPERTIES:
@@ -640,14 +645,17 @@ CLOCK: [2025-05-30 Fri 16:37]
 :END:
 *** Agenda
 - Review action reg
-*** Notes
+*** DONE Notes
+    CLOSED: [2025-07-24 Thu 13:54]
 - Jira to be cleaned up
 - Teams need to get closer to how support teams are working and how they are interacting with members
 *** Decisions
 -
 *** Action Items
-**** TODO need to orgranise time for the squad to sit with member support team to see how they work
-**** TODO chat with Andrew about the release roadmap from Bob squad
+**** DONE need to orgranise time for the squad to sit with member support team to see how they work
+     CLOSED: [2025-07-24 Thu 13:56]
+**** DONE chat with Andrew about the release roadmap from Bob squad
+     CLOSED: [2025-07-24 Thu 13:56]
 **** DONE Raise the risk on not building out the backend features in Pi4 but rather focused on the frontend only
 
 ** Ernie Standup :meeting:
@@ -664,7 +672,8 @@ CLOCK: [2025-05-30 Fri 16:37]
 *** Decisions
 -
 *** Action Items
-**** TODO check on fix version for jira, for when stories go to done
+**** DONE check on fix version for jira, for when stories go to done
+     CLOSED: [2025-07-24 Thu 13:56]
 
 ** Bert standup :meeting:
 :PROPERTIES:
@@ -860,9 +869,12 @@ CLOCK: [2025-05-30 Fri 16:37]
 *** Decisions
 -
 *** Action Items
-**** TODO gain insights from non-compliant employers
-**** TODO is it they defer all their obligations to their book keepers and the book keepers don't know
-**** TODO Come back to Catryn on the outcome of Salesforce implementation plan
+**** DONE gain insights from non-compliant employers
+     CLOSED: [2025-07-24 Thu 13:56]
+**** DONE is it they defer all their obligations to their book keepers and the book keepers don't know
+     CLOSED: [2025-07-24 Thu 13:56]
+**** DONE Come back to Catryn on the outcome of Salesforce implementation plan
+     CLOSED: [2025-07-24 Thu 13:56]
 
 ** Hyprcare :meeting:
 :PROPERTIES:
@@ -879,7 +891,8 @@ CLOCK: [2025-05-30 Fri 16:37]
 *** Decisions
 -
 *** Action Items
-**** TODO reach out to Nikki and Matt about the use of MPS for defects coming in from the retuns form when it goes live
+**** DONE reach out to Nikki and Matt about the use of MPS for defects coming in from the retuns form when it goes live
+     CLOSED: [2025-07-08 Tue 10:40]
 **** DONE Develop a release plan
 
 ** Sponsor & squad catch up :meeting:
@@ -896,8 +909,10 @@ CLOCK: [2025-05-30 Fri 16:37]
   - can't do email address
 *** Decisions
 -
-*** Action Items
-**** TODO move the risk to program level risk not employer risk - EMP-439
+*** DONE Action Items
+    CLOSED: [2025-07-08 Tue 10:41]
+**** DONE move the risk to program level risk not employer risk - EMP-439
+     CLOSED: [2025-07-24 Thu 13:56]
 
 ** Sprint 3 Review :meeting:
 :PROPERTIES:
@@ -965,7 +980,8 @@ SCHEDULED: <2025-06-24 Tue>
 *** Decisions
 -
 *** Action Items
-**** TODO need analysis on azure DevOps don't have full control, engineers not trusted :retro:
+**** DONE need analysis on azure DevOps don't have full control, engineers not trusted :retro:
+     CLOSED: [2025-07-24 Thu 13:57]
 
 ** Sprint 4 planning :meeting:
 :PROPERTIES:
@@ -986,7 +1002,8 @@ SCHEDULED: <2025-06-24 Tue>
 *** Decisions
 -
 *** Action Items
-**** TODO check with Naleena that employers have up-to-date worker list
+**** DONE check with Naleena that employers have up-to-date worker list
+     CLOSED: [2025-07-24 Thu 13:57]
 
 ** Ernie sprint planning :meeting:
 :PROPERTIES:
@@ -1083,7 +1100,8 @@ SCHEDULED: <2025-06-24 Tue>
 *** Decisions
 -
 *** Action Items
-**** TODO consider breaking up the kanban board based on releases
+**** DONE consider breaking up the kanban board based on releases
+     CLOSED: [2025-07-24 Thu 13:57]
 
 ** Ernie Standup :meeting:
 :PROPERTIES:
@@ -1133,8 +1151,10 @@ SCHEDULED: <2025-06-24 Tue>
 *** Decisions
 -
 *** Action Items
-**** TODO reach out to Nixon, the instructions aren't enough
-**** TODO update Nixon on upcoming release
+**** DONE reach out to Nixon, the instructions aren't enough
+     CLOSED: [2025-07-24 Thu 13:57]
+**** DONE update Nixon on upcoming release
+     CLOSED: [2025-07-07 Mon 10:34]
 **** DONE include Jess and Jenelle in the go/no-go meeting
 
 ** Tech Program Meeting :meeting:
@@ -1156,7 +1176,8 @@ SCHEDULED: <2025-06-24 Tue>
 *** Decisions
 -
 *** Action Items
-**** TODO work with David Gleeson on release plan
+**** DONE work with David Gleeson on release plan
+     CLOSED: [2025-07-07 Mon 10:34]
 
 ** Ernie Standup :meeting:
 :PROPERTIES:
@@ -1291,7 +1312,8 @@ SCHEDULED: <2025-06-24 Tue>
 *** Decisions
   -
 *** Action Items
-**** TODO will need validations on the fields for backdated returns
+**** DONE will need validations on the fields for backdated returns
+     CLOSED: [2025-07-24 Thu 13:57]
 
 ** Bert standup :meeting:
 :PROPERTIES:
@@ -1316,7 +1338,8 @@ SCHEDULED: <2025-06-24 Tue>
 *** Decisions
 -
 *** Action Items
-**** TODO will need to implement the backup plan, of taking the JSON form Cosmos and sharing it with ringfence team, if we can't get the CSV generation and loading of Jira.
+**** DONE will need to implement the backup plan, of taking the JSON form Cosmos and sharing it with ringfence team, if we can't get the CSV generation and loading of Jira.
+     CLOSED: [2025-07-24 Thu 13:57]
 
 ** Tech Prog Weekly :meeting:
 :PROPERTIES:
@@ -1332,7 +1355,8 @@ SCHEDULED: <2025-06-24 Tue>
 *** Decisions
 -
 *** Action Items
-**** TODO get Johan/Subbu to look into Azure options around Rules as Code
+**** DONE get Johan/Subbu to look into Azure options around Rules as Code
+     CLOSED: [2025-07-07 Mon 10:34]
 
 ** Ernie standup :meeting:
 :PROPERTIES:
@@ -1401,7 +1425,8 @@ SCHEDULED: <2025-06-24 Tue>
 *** Decisions
 -
 *** Action Items
-**** TODO organise team lunch for the returns release
+**** DONE organise team lunch for the returns release
+     CLOSED: [2025-09-05 Fri 11:05]
 
 ** Backlog readiness Employer :meeting:
 :PROPERTIES:
@@ -1415,4 +1440,667 @@ SCHEDULED: <2025-06-24 Tue>
 *** Decisions
 -
 *** Action Items
-**** TODO Need to resolve the duplicate email address for employers, currently they have one email to multiple companies, and each company needs a unique email
+**** DONE Need to resolve the duplicate email address for employers, currently they have one email to multiple companies, and each company needs a unique email
+     CLOSED: [2025-09-05 Fri 11:05]
+
+** Ernie Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-07-04 Fri 10:03]
+:ATTENDEES: Ernie squad,
+:END:
+*** Agenda
+- Sprint 5
+*** Notes
+- EMP-422
+  - removed some dead data, merged yesterday
+  - the function should have PR in today
+  - EMP-480
+    - will add workers after EMP-422
+- EMP-
+  - period dates should not be editable
+- EMP-208
+  - will speak to James Holmes
+*** Decisions
+-
+*** Action Items
+
+** Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-07-04 Fri 10:16]
+:ATTENDEES: Bert, Kate,
+:END:
+*** Agenda
+- Sprint 5
+*** Notes
+- staging and pre-prod can't login
+- EMP-424
+  - ready for Veena
+- EMP-557
+  - doing a lot of testing, making sure not to break anything
+  - will work with Ashita and Benedict on Auth0 status
+- EMP-370
+  - Backend work is complete
+- EMP-560
+  -
+*** Decisions
+-
+*** Action Items
+
+** Weekly Tech Program :meeting:
+:PROPERTIES:
+:DATE: [2025-07-04 Fri 11:03]
+:ATTENDEES: David Gleeson, Scotty, Rohan, David Lang
+:END:
+*** Agenda
+- Weekly catch up
+*** Notes
+- pulling data from Avatar
+- FMS
+  - approach is not aligned to how tech need to do things
+  - large push to big design up front, with CR's after
+- CMS
+  - regulator could be pushing a lot of need
+- Process mapping awareness coming up
+- need to flag some of the black box tech solutions on the roadmap
+  - different stat interest rates depending on certain scenarios
+  -
+*** Decisions
+-
+*** Action Items
+**** DONE clarify and clean up non-prod env's data
+     CLOSED: [2025-07-24 Thu 13:57]
+**** DONE get liquibase data
+     CLOSED: [2025-07-24 Thu 13:57]
+
+** Meeting: Seal Team Six :meeting:
+  [2025-07-04 Fri]
+  ** Attendees: David Gleeson
+  ** Agenda: Scope of work for new team
+  ** Notes: 
+    - AustLII has a rules as code engine - "DataLex"
+    - reform Jay squad and build the rules engine off the back of the POC
+***  Action Items:
+*** DONE Speak to james holmes about coming on as Seal Team Lead
+    CLOSED: [2025-07-24 Thu 13:57]
+
+** Meeting: Ernie standup
+:PROPERTIES:
+:DATE: [2025-07-07 Mon]
+:ATTENDEES: Ernie
+:END:
+*** Agenda:
+Sprint 4
+*** Notes:
+- EMP-208
+- EMP-236 in progress
+- EMP-422 - pull request in, after fixings are in
+  - will update and include the admin page, if we need to generate the return
+*** Action Items:
+
+** Meeting: Bert standup
+:PROPERTIES:
+:DATE: [2025-07-07 Mon]
+:ATTENDEES: Bert, Nha, Vish
+:END:
+*** Agenda:
+Bert
+*** Notes:
+- EMP-557 - logout needed.tracking user activity. 
+- EMP-570
+      - in progress, a few more changes yet to make
+*** Action Items:
+**** DONE dev's getting a lot of notifications from Synk in IDE
+     CLOSED: [2025-07-24 Thu 13:57]
+
+** Meeting: Ernie Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-07-08 Tue]
+:ATTENDEES: Ernie squad, Yi
+:END:
+*** Agenda:
+Sprint 5
+*** Notes:
+- EMP-236 - going fine, coding
+- overall, progress is continuing
+*** Action Items:
+
+** Meeting: Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-07-08 Tue]
+:ATTENDEES: Bert squad
+:END:
+*** Agenda:
+Sprint 5
+*** Notes:
+- EMP-557 peer review up, for FE changes, hoping to have solved the Auth0 issues for  timeout, however, changes not successful in staging
+- EMP-370 close to completion, working through cypress and jest
+- EMP-555 will need a data export from Vish
+- EMP-560 need to confirm the auth0 logs are in production
+*** Action Items:
+
+** Meeting: Backdated Discovery session :meeting:
+:PROPERTIES:
+:DATE: [2025-07-08 Tue]
+:ATTENDEES: Patrick, Lan Tran, Koshica, Baz, Agnes, Gleeson, Aditi, Dan R, Tessa, Naleena, Sophie, Steven
+:END:
+*** Agenda:
+Backdated Pi5
+*** Notes:
+- [miro board discovery backdated][[https://miro.com/app/board/uXjVIhgPGCA=/]]
+*** Action Items:
+** Meeting: Ernie Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-07-11 Fri]
+:ATTENDEES: Ernie squad, Ran
+:END:
+*** Agenda:
+Sprint 5
+*** Notes:
+- Emp-422 ready to be tested, final steps, need to work with Veena to test in 
+- EMP-608 kicking off separating backdating and future dated returns
+*** Action Items:
+** Meeting: Bert Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-07-11 Fri]
+:ATTENDEES: Bert squad, Yi, Ran
+:END:
+*** Agenda:
+Sprint 5
+*** Notes:
+- EMP-557 - needs to be sense checked
+- EMP-370 - ready for pre-prod testing
+- EMP-555 - checked and verified the test cases yesterday, kermit employer, will be able to get into avatar and worker, but worker or avatar can't get into kermit employer
+- 
+*** Action Items:
+**** DONE book in 2 half day workshops for delivery planning with employer
+     CLOSED: [2025-07-24 Thu 13:57]
+**** DONE book in time with James Holmes to run BDD session
+     CLOSED: [2025-07-24 Thu 13:57]
+** Meeting: Tech Prog Elevate T&I :meeting:
+:PROPERTIES:
+:DATE: [2025-07-11 Fri]
+:ATTENDEES: Scotty, DL, DG
+:END:
+*** Agenda:
+Elevate
+*** Notes:
+- FMS DL caught with Dan
+       - big design upfront
+       - working with/meeting people with where they are at
+- Delivery commitments
+      - next week some people are deciding on what to be delivered in Pi5
+      - 
+*** Action Items:
+
+** Meeting: Catch up Aditi :meeting:
+:PROPERTIES:
+:DATE: [2025-07-11 Fri]
+:ATTENDEES: Aditi
+:END:
+*** Agenda:
+Pi5 scope
+*** Notes:
+- Mark F got a directive to push on deliverables
+*** Action Items:
+** Meeting: Non-squad standup :meeting:
+:PROPERTIES:
+:DATE: [2025-07-21 Mon]
+:ATTENDEES: Nixon, Naleena, Koshica, Jess, Sophie
+:END:
+*** Agenda:
+Standup
+*** Notes:
+- Nixon wanting a dedicated Dev, explained, it will be case by case
+*** Action Items:
+** Meeting: Catch up Sophie :meeting:
+:PROPERTIES:
+:DATE: [2025-07-21 Mon]
+:ATTENDEES: Sophie
+:END:
+*** Agenda:
+Cleaning up Backlog
+*** Notes:
+- Need to review work from Nixon
+*** Action Items:
+**** DONE Create security epic to catch all that work
+     CLOSED: [2025-07-24 Thu 13:57]
+**** DONE Splitting of backdated returns and returns - work it through
+     CLOSED: [2025-07-24 Thu 13:58]
+**** DONE the Peer Review and Review column not clear
+     CLOSED: [2025-07-24 Thu 13:58]
+**** DONE should be a way to create a manual return so Veena can test
+     CLOSED: [2025-08-18 Mon 15:11]
+** Meeting: Ernie Standup sprint 6 :meeting:
+:PROPERTIES:
+:DATE: [2025-07-21 Mon]
+:ATTENDEES: Ernie squad
+:END:
+*** Agenda:
+Sprint 6
+*** Notes:
+- EMP-236 almost complete the tests
+- EMP-422 didn't have the data we needed to have all the workers we need
+- EMP-634 storybook close to complete
+- EMP-608 hopefully decouples the backdated and future returns
+*** Action Items:
+**** DONE
+     CLOSED: [2025-07-24 Thu 13:58]
+** Meeting: Sprint 6 standup :meeting:
+:PROPERTIES:
+:DATE: [2025-07-21 Mon]
+:ATTENDEES: Bert squad
+:END:
+*** Agenda:
+Sprint 6
+*** Notes:
+- EMP-557 currently in testing
+- EMP-667 issue with refresh token
+- EMP-289 story needs some work on the acceptance criteria
+*** Action Items:
+**** DONE speak to security about the DAST testing for the invoice email limit 9 - 3 change
+     CLOSED: [2025-07-24 Thu 13:58]
+**** DONE speak to Matt about the logs Megan to send details
+     CLOSED: [2025-07-24 Thu 13:58]
+**** DONE organise a team lunch for Bert and Ernie
+     CLOSED: [2025-07-24 Thu 13:58]
+** Meeting: Ernie Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-07-24 Thu]
+:ATTENDEES: Ernie squad
+:END:
+*** Agenda:
+Sprint 6
+*** Notes:
+- EMP-208 it is in progress for logging
+- EMP-636 playwright progress to happen over 208 as blocked with DD issues
+- Justin to push to staging for Veena to test
+- EMP-422 will be back in progress for Thomas
+- EMP-619 part peer review, rest coming after
+*** Action Items:
+**** DONE
+     CLOSED: [2025-07-24 Thu 13:58]
+** Meeting: Arch forum :meeting:
+:PROPERTIES:
+:DATE: [2025-07-24 Thu]
+:ATTENDEES: Tech & Innov
+:END:
+*** Agenda:
+Arch
+*** Notes:
+- solution design for pi5 needs a review process from every squad
+- need to incorporate security and arch in planning
+- squads aren't capable of identifying tech debt
+*** Action Items:
+**** DONE invite Subbu and Kate to solution planning next thursday
+     CLOSED: [2025-08-18 Mon 15:11]
+** Meeting: Ernie standup :meeting:
+:PROPERTIES:
+:DATE: [2025-07-25 Fri]
+:ATTENDEES: Ernie squad
+:END:
+*** Agenda:
+Sprint 6
+*** Notes:
+- EMP-422 spoke to Veena, need data to reproduce the issue. Found it in staging, requested. Need to find data in Avatar Prototype database, but is very old db, Veena will need to look around. Or, could manually make the data.
+  - Veena will come up with a plan
+- EMP-617 waiting foir Sophie
+- EMP-619 in progress 
+- 
+*** Action Items:
+** Meeting: Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-07-25 Fri]
+:ATTENDEES: Bert squad
+:END:
+*** Agenda:
+Sprint 6
+*** Notes:
+- EMP-688 in progress, after Thomas has merged, will push, but will account for some merge conflicts
+- EMP-22 still on hold, spent more time on POC
+- EMP-538 close to PR
+*** Action Items:
+**** DONE Create a board for Veena to support her testing
+     CLOSED: [2025-08-18 Mon 15:11]
+** Meeting: Pi5 planning :meeting:
+:PROPERTIES:
+:DATE: [2025-08-04 Mon]
+:ATTENDEES: Bert, Ernie, Subbu, Rohan, Matt, Vish
+:END:
+*** Agenda:
+Pi5
+*** Notes:
+- 
+*** Action Items:
+** Meeting: Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-08-07 Thu]
+:ATTENDEES: Bert, Chris
+:END:
+*** Agenda:
+Sprint something
+*** Notes:
+- EMP-688 will continue to clean up wage to ordinary pay
+- EMP-557 will work on testing this 
+- SSO and Auth0 is really messy and poorly articulated EMP-580
+- EMP-739 migration poc
+- 
+*** Action Items:
+**** DONE Megan to give details on migration poc story
+     CLOSED: [2025-08-18 Mon 15:11]
+** Meeting: One on One Megan :meeting:
+:PROPERTIES:
+:DATE: [2025-08-07 Thu]
+:ATTENDEES: Megan
+:END:
+*** Agenda:
+Arch
+*** Notes:
+- Megan, cut off, and cut off Santosh
+- Lots of pro's and con's, just google it, 
+- Should be able to come in and explore, without being shut down, and put down
+- On Tuesday, DB meeting, Megan had done the wrong thing, Subbu called her out, he doesn't know the context
+- Conversations not appropriate, or not being present
+- 
+*** Action Items:
+**** DONE Speak to DL and DG
+     CLOSED: [2025-08-18 Mon 15:11]
+** Meeting: Ernie standup :meeting:
+:PROPERTIES:
+:DATE: [2025-08-19 Tue]
+:ATTENDEES: Ernie, Vish, Yi
+:END:
+*** Agenda:
+Sprint 2
+*** Notes:
+- Thomas 
+      has pull requests, including cleaning up GraphQL
+      fixing red-db
+      Megan is adding additional data to script
+      Need these script fixes for 422
+- Santosh
+      Working on Playwright tests, will push a PR soon
+      Will wrap up Playwright today
+- Justin
+      will continue working through Playwright
+- Ran
+      nothing from him
+- Veena
+      Continue to test auto logout and auto save
+- Yi
+      finishing refactoring API pipeline
+      will focus on auth0 task next
+      will leave pipelines running for 2 weeks and see what is next
+- Vish
+      nothing for him at the moment
+- Koshica
+      continuing to prep for refinement
+
+*** Action Items:
+**** DONE Organise Playwright day for this Thursday
+     CLOSED: [2025-08-19 Tue 11:40]
+
+**** DONE setup eventing session with johan, tommy, voytek, megan, vish thomas
+     CLOSED: [2025-09-05 Fri 11:05]
+** Meeting: Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-08-19 Tue]
+:ATTENDEES: Bert, Yi
+:END:
+*** Agenda:
+Sprint 2
+*** Notes:
+- Megan
+      ran into issue connecting with red db for EMP-712
+      need to setup netskope access
+      working with John S to get the connection
+      Ashita will join on that story
+- Benedict
+      EMP-844 should be ready for PR today
+- Veena
+      part way through testing
+      3 minute flag on and off
+      will discuss with Jason and Ran later today
+      flag will auto show logout without having to click on anything, no user confirmation of logout
+*** Action Items:
+**** DONE
+     CLOSED: [2025-08-19 Tue 11:32]
+
+              ** Meeting: Ernie standup :meeting:
+              :PROPERTIES:
+              :DATE: [2025-08-20 Wed]
+              :ATTENDEES: Ernie sq, Vish
+              :END:
+              *** Agenda:
+              Sprint 2
+              *** Notes:
+              - Thomas
+                Spent some time with Megan on EMP-422
+                
+              *** Action Items:
+              **** TODO
+
+              ** Meeting: Ernie Standup :meeting:
+              :PROPERTIES:
+              :DATE: [2025-08-20 Wed]
+              :ATTENDEES: Ernie, Vish
+              :END:
+              *** Agenda:
+              Sprint 2
+              *** Notes:
+              - 
+              *** Action Items:
+              **** TODO
+** Meeting: test :meeting:
+:PROPERTIES:
+:DATE: [2025-08-20 Wed]
+:ATTENDEES: test
+:END:
+*** Agenda:
+tes
+*** Notes:
+- 
+*** Action Items:
+**** DONE
+     CLOSED: [2025-09-05 Fri 11:05]
+** Meeting: Bert standup :meeting:
+:PROPERTIES:
+:DATE: [2025-08-20 Wed]
+:ATTENDEES: Bert squad
+:END:
+*** Agenda:
+Sprint 2
+*** Notes:
+- Megan
+      EMP-712 leading to a schema review
+      some issues with demo data, and use avatar instead, but taking 75 minutes to populate db with data
+      we have been asked to remove demo data from pipeline scripts
+      makes sense to use migration data with scripts, as it gives better insights into the data coming in
+- Ashita
+      Employment done
+      looking for work, will help Megan
+- Benedict
+      Feature flag work type in peer review
+      will look at next button now
+- Veena
+      finishing off auto save feature
+      will explore pagination next
+- Naleena
+      will review Next 
+
+*** Action Items:
+**** DONE
+     CLOSED: [2025-09-05 Fri 11:05]
+** Meeting: Dummy data - Avatar migration scripts V demo data :meeting:
+:PROPERTIES:
+:DATE: [2025-08-20 Wed]
+:ATTENDEES: Thomas, Megan
+:END:
+*** Agenda:
+Issues with migration scripts
+*** Notes:
+- With new data schema, it takes 75 minutes to get the Avatar data into dev
+- Discovering good insights into the data, so when we do the big migration, it will be a lesser surprise
+- Will need to keep a function their to update the data in dev
+- When adding full service history, blows out the migration to 75 minutes
+*** Action Items:
+** Meeting: Tooling :meeting:
+:PROPERTIES:
+:DATE: [2025-08-20 Wed]
+:ATTENDEES: Tommy, Thomas, DG, Megan, Nixon, Yi
+:END:
+*** Agenda:
+Tooling
+*** Notes:
+- try some tests without mocks
+- firewall problem hitting API's
+- employer doesn't need to talk outside its boundary
+- haven't been intentional with the interfaces
+- integration tests are missing
+- we don't have API tests, we should start creating these tests
+- run it on a schedule, playwright can do API testing
+- versioning can become hard, if it is testing the shape of response is correct based on expectations
+- Synk and Playwright is smooth for worker app
+- if something happens in pipeline, it should have a standard procedure
+*** Action Items:
+**** DONE Tommy to start some API testing
+     CLOSED: [2025-09-05 Fri 11:05]
+
+**** DONE Yi to create a playbook for process when there is an issue
+     CLOSED: [2025-09-05 Fri 11:05]
+** Meeting: RBAC :meeting:
+:PROPERTIES:
+:DATE: [2025-08-22 Fri]
+:ATTENDEES: James H, Johan
+:END:
+*** Agenda:
+User access
+*** Notes:
+- staff with have Microsoft AD - approach
+- members with be done via auth0
+- where do we store the permissions and what systems look after it 
+- explore storing all the permissions inside of Auth0
+- eventing may cause the token may have expired
+- sync happens early, 
+- need to consider the registration process for creating delegates
+- 
+*** Action Items:
+**** DONE put together RBAC kick off
+     CLOSED: [2025-09-05 Fri 11:05]
+
+**** TODO let kylie know about further microsoft AD work coming for admin app
+     SCHEDULED: <2025-09-09 Tue>
+** Meeting: Eventing Kick off :meeting:
+:PROPERTIES:
+:DATE: [2025-08-22 Fri]
+:ATTENDEES: Tommy, Benedict, Johan, Vish, Megan, Thomas, Voytek
+:END:
+*** Agenda:
+Work through eventing epic starting point
+*** Notes:
+- Quick intro on the eventing
+- Event topic - John has done some work
+- DLQ's need to be discussed, will be done later
+      because they need to understand sessions
+- let the message live in a queue for a week
+- shared services repo
+- need to standardise the header
+- already have the submit the return publisher
+- if we need to analyse the payloads if something goes wrong, we should have enough info from the header
+- Common Practical Approach (what most teams do on Azure Service Bus)
+    Since Service Bus doesn’t have a first-class schema registry:
+    Schema repo in Git (JSON Schemas versioned alongside code).
+      Every event gets its own schema file.
+      Use GitHub Actions/Azure DevOps pipeline to validate events against schema in CI/CD.
+    Schema reference in envelope (schemaRef: a URI or Git tag).
+      E.g., schemaRef: https://github.com/org/events/schemas/employer.profile.updated.v1.json
+    Docs generation
+      Auto-generate HTML/Markdown docs from JSON Schema (tools like Docson, Spectral, or even quicktype).
+    Publish to a static site or Confluence.
+- Some variation of event type to be specific without creating too many updates
+- Keep publishing as simple as possible and use some filtering tools to decide who gets what
+      later we can get more specific
+      create one topic, and let the sub handle subscription
+- Let's exclude draft state, could be a lot of noise
+      we need to be clear on when something is and isn't accurate
+- Look at what are the major data flows in our system
+- A good starting point, how do we transfer data from returns through the service history, and back to the worker app
+- Event storming session done by James Holmes
+
+*** Action Items:
+**** TODO setup somewhere to document the contracts ideally in Azure, be good to avoid manual creation of jSON schema
+
+**** DONE setup a follow up meeting for next week
+     CLOSED: [2025-09-05 Fri 11:05]
+** Meeting: Admin app :meeting:
+:PROPERTIES:
+:DATE: [2025-08-25 Mon]
+:ATTENDEES: Johan, Santosh, Justin, Thomas, Koshica, Sophie, Nil
+:END:
+*** Agenda:
+Kick off Admin app
+*** Notes:
+- The POC for the rules engine exists, we can use this and get moving
+- Need to clean up the repo
+- Need to access it via the service bus
+- consider renaming the app, to admin app, and one of the sub-headings is rules engine
+- app roles  
+      reason copy/content app role
+      Rules role
+      Parameters role
+*** Action Items:
+**** TODO Need to know what parameters are going to go across
+**** TODO take one cell parameter, move to admin app and publish to service bus
+**** TODO consider startup script for new engineers
+**** TODO need to do app registry in the active directory :John Sneddon:
+**** TODO get a demo
+** Meeting: Ernie Sprint 3 :meeting:
+:PROPERTIES:
+:DATE: [2025-08-29 Fri]
+:ATTENDEES: Enrie, Yi
+:END:
+*** Agenda:
+Sprint 3 standup
+*** Notes:
+- Tuan
+      Working through the GA and tooltip, Shiel provided what was needed
+- Start date
+      ready for sophie
+- Ashita
+      Started end date column, a little complexity for calendar picker
+- Benedict
+      Next is in Peer Review, just waiting for it to happen
+      Kicked off backend calc for start end date
+- Megan
+      EMP-974 just started
+- Naleena
+
+*** Action Items:
+**** DONE setup recurring refinement session
+     CLOSED: [2025-09-05 Fri 11:06]
+** Meeting: Tech Program weekly :meeting:
+:PROPERTIES:
+:DATE: [2025-08-29 Fri]
+:ATTENDEES: DL, DG, Rohan, Scotty, SB
+:END:
+*** Agenda:
+Tech Elevate
+*** Notes:
+- 
+*** Action Items:
+**** DONE
+     CLOSED: [2025-09-06 Sat 13:35]
+** Meeting: Sami 1 on 1 :meeting:
+:PROPERTIES:
+:DATE: [2025-09-08 Mon]
+:ATTENDEES: Sami
+:END:
+*** Agenda:
+Program catch up
+*** Notes:
+- provide insight into the program
+      mentioned the need to always plan
+      said Criag creates a lot of tension and how we are not allowed say "foundational work"
+      being pushed to always plan and not focus on the doing
+*** Action Items:
+
+          
