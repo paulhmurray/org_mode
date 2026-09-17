@@ -15,10 +15,10 @@
 #default-title = "Untitled"
 
 # Template used to generate a note's filename, without extension.
-filename = "[[{{id}}|{{title}}]]"
+filename = "{{id}}-{{slug title}}"
 
 # The file extension used for the notes.
-#extension = "md"
+extension = "md"
 
 # Template used to generate a note's content.
 # If not an absolute path or "~/unix/path", it's relative to .zk/templates/

@@ -14,3 +14,9 @@
   CLOSED: [2025-09-08 Mon 11:26]
   [2025-09-06 Sat]
   [[file:/home/paulm/Dropbox/org/inbox.org::11]]
+* TODO Get stuff done
+  [2025-09-09 Tue]
+  [[file:/home/paulm/Dropbox/org/refile.org::6]]
+* TODO organise a session with engineers to talk about boundaries for playwright and jest testing
+  [2025-11-27 Thu]
+  [[file:::18]]

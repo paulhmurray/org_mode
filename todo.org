@@ -6,4 +6,5 @@
    CLOSED: [2025-07-07 Mon 10:33]
 ** DONE Create some pre-reading for the user story mapping session next Thursday to set the scene
    CLOSED: [2025-07-07 Mon 10:33]
-* TODO Dev's need access
+* DONE Dev's need access
+  CLOSED: [2026-09-09 Tue 18:58]

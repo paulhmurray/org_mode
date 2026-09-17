@@ -2052,7 +2052,8 @@ Kick off Admin app
 **** TODO take one cell parameter, move to admin app and publish to service bus
 **** TODO consider startup script for new engineers
 **** TODO need to do app registry in the active directory :John Sneddon:
-**** TODO get a demo
+**** DONE get a demo
+     CLOSED: [2025-09-09 Tue 09:31]
 ** Meeting: Ernie Sprint 3 :meeting:
 :PROPERTIES:
 :DATE: [2025-08-29 Fri]
@@ -2102,5 +2103,294 @@ Program catch up
       said Criag creates a lot of tension and how we are not allowed say "foundational work"
       being pushed to always plan and not focus on the doing
 *** Action Items:
+** Meeting: Standup Bert :meeting:
+:PROPERTIES:
+:DATE: [2025-09-09 Tue]
+:ATTENDEES: Bert
+:END:
+*** Agenda:
+Sprint 3
+*** Notes:
+- Tuan started new ticket
+- Ashita
+      Terminate worker up for peer review
+      needs some help with PR for Tuan's work, will lean on Megan
+- Benedict
+      EMP-980 did the full quarter, will finish mid quarter and then raise a joint PR
+*** Action Items:
+**** TODO remove EMP-843 sub task out of the story EMP-614
+     DEADLINE: <2025-09-09 Tue>
+** Meeting: Ernie standup :meeting:
+:PROPERTIES:
+:DATE: [2025-09-09 Tue]
+:ATTENDEES: Ernie, Yi, Vish
+:END:
+*** Agenda:
+Sprint 3
+*** Notes:
+- Santosh
+      EMP-675 in peer view for employment type and will start def hover message
+- Justin
+      Have moved some stuff, chasing up with a few engineers to tidy standup
+      will clean up soon
+- Jack
+      Days validation, adding test coverage for it, and getting up to speed with playwright
+      Need to figure out how much is left
+- DevOps
+      POC on improvements to pipeline
+      Ran working on auto save refresh token, getting into pre-prod, getting close to moving into production
+*** Action Items:
+**** TODO come back to vish on EMP-908, where do we need this
+** Meeting: MVP decemeber :meeting:
+:PROPERTIES:
+:DATE: [2025-09-10 Wed]
+:ATTENDEES: Aditi
+:END:
+*** Agenda:
+Scope
+*** Notes:
+- review the plan from Aditi and come up with estimates
+- get insight into trainee effort
+*** Action Items:
+**** TODO arrange catch up with Aditi
+**** TODO speak to Johan about tech scope
+** Meeting: Sprint 3 review :meeting:
+:PROPERTIES:
+:DATE: [2025-09-11 Thu]
+:ATTENDEES: Ernie
+:END:
+*** Agenda:
+Sprint 3
+*** Notes:
+- Will push through the last of the work for generating the backdated returns
+- employerAPI and returnsAPI possibly merge into one API to reduce complexity
+- Days calculation
+      the data model
+      playwright setup was holding up the work
+- Employment type not present
+- Days calculation
+      really slow progress, hard to setup
+
+*** Action Items:
+** Meeting: Ernie retro :meeting:
+:PROPERTIES:
+:DATE: [2025-09-11 Thu]
+:ATTENDEES: Ernie
+:END:
+*** Agenda:
+Sprint 3 retro
+*** Notes:
+    - shared with the team: 
+      We’ve been hearing from the business that feature delivery progress isn’t meeting their expectations. Let’s unpack why that might be happening together.
+      Structured the retro around "what went well", "what should we do differently", "what should we start doing?"
+    - BDD not worth the effort. It takes as long, if not longer, to write the test, then the feature
+      tests are fragile, facing issues with mocks, they don't remain accurate(data)
+      we are not seeing much from the tests, given the cost/time not seeing the reliability from the tests
+      e.g. we are testing tooltips, but don't need testing on the tooltips(most of it)
+      automation testing, gets changed sprint to sprint, system should be stable before you start the automation
+    - want the team to push back on the approach, if it is technically hard
+      architecture v's business
+      the right technical solution should be fast 
+      we don't have a way to bring in the legacy data, the data migration
+    - taking shortcuts when we don't have clear understanding from architecture
+      don't want to do anything until a decision is made 
+    - what is slowing us down and how we can address then
+      things across the board caused things to be slow
+      complexity of domain, and ways of working
+      technical toolset, archtiecture, and how they flow through development and the way we work with Bert squad
+    - Start:
+      Minimum viable backlog Items
+      items are flesh out alot, we could reduce the upfront work, and leave it in a sparse start
+      and put some details into the dev process
+      Between the excel sheet, the ready state for the card is to high, if we lower it
+      we can speed up the refining, and leave the details for when we are developing 
+    - Hearing alot about preventing conversations
+    - We get given the framework and told this is how it should be done
+    - People who have direct influence of how we work, that are not in the retro
+    - Product owners hands are tied
+    - we are not natively figurnig out requirements in a BDD style, because our business is more rules based
+    - the gherkin written by BA's is thrown away, because dev's need to rewrite it
+      only the dev's are reading it, even though it is for non-tech People
+      greater prgmatism
+      the BA framework pushes for Given, When Then
+    - Spending a lot of time on the backlog, with fewer words and fewer ceremonies
+      communication is already in-efficient
+
+
+*** Action Items:
+**** TODO show Dan Roberts the example of the user story for EMP-692
+**** TODO discuss with Aneta how Seal team will insert themselves into the Salesforce team to do the integration
+
+** Meeting: Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-09-12 Fri]
+:ATTENDEES: Seal
+:END:
+*** Agenda:
+Seal Standup
+*** Notes:
+- James needs repo in Delivery application, Johan to give him rights
+- Conversation to put in events,issue with teams re-writing everything
+      finding a sub will be hard
+      connection to worker to facade was a perfect spot to do Async 
+      FE can talk to its service, and async will get it into avatar
+      Worker said no, we are re-writing service from scratch so it works without avatar, that blocks eventing
+      this seems like a strategic thing, given the whole team is screwed up 
+      Do we after Avatar call, gives us response, then publish the event, so if anyone else cares they can subscribe
+      If we just push all events to service bus, the auditing is a good place to start
+      Publish a claim success/fail in workerapi, submission gets recorded, shared services domain will have a plan logic app, that will ingest everything
+      Next one, a python app, then let teams know, they need to 
+*** Action Items:
+
+** Meeting: Standup :meeting:
+:PROPERTIES:
+:DATE: [2025-09-12 Fri]
+:ATTENDEES: Seal
+:END:
+*** Agenda:
+Seal Standup
+*** Notes:
+- James needs repo in Delivery application, Johan to give him rights
+- Conversation to put in events,issue with teams re-writing everything
+      finding a sub will be hard
+      connection to worker to facade was a perfect spot to do Async 
+      FE can talk to its service, and async will get it into avatar
+      Worker said no, we are re-writing service from scratch so it works without avatar, that blocks eventing
+      this seems like a strategic thing, given the whole team is screwed up 
+      Do we after Avatar call, gives us response, then publish the event, so if anyone else cares they can subscribe
+      If we just push all events to service bus, the auditing is a good place to start
+      Publish a claim success/fail in workerapi, submission gets recorded, shared services domain will have a plan logic app, that will ingest everything
+      Next one, a python app, then let teams know, they need to 
+*** Action Items:
+** Meeting: Bert&Ernie :meeting:
+:PROPERTIES:
+:DATE: [2025-09-22 Mon]
+:ATTENDEES: Brent, Dan, Sophie
+:END:
+*** Agenda:
+Performance
+*** Notes:
+- Velocity issue
+      Returns Days
+      Must stick to the workflow, can't be in backlog, must be in ready
+      Perception that Thomas is taking a long time to complete work
+- Team Performance
+      When things carry over on multiple sprints
+      Review the remaining to descope the epics 
+- Go through epics
+      pull out as much as possible
+*** Action Items:
+**** TODO move the tickets over to the seal team project
+**** TODO separate out Bert and Ernie projects
+** Meeting: Ernie retro :meeting:
+:PROPERTIES:
+:DATE: [2025-09-25 Thu]
+:ATTENDEES: squad
+:END:
+*** Agenda:
+sprint 4
+*** Notes:
+- choatic sprint, pretty stressful
+- Jack
+      feedback, takes a long time to get PR 
+      feedback is drip fed
+      the way feedback is coming, isn't always brutal/frank enough
+      need more direct feedback
+- Santosh
+      we shouldn't be picking up new work if there is work waiting to be moved closer to done 
+- Thomas
+      the board is hard to use and see where things are at
+      feeling that the board doesn't work for use
+      if we could work without filters that woudl be great
+
+*** Action Items:
+**** TODO have a team session on how we approach pull requests, they are too slow
+**** TODO push for the team to use the peer review meetings to swarm on the PR's
+** Meeting: Ernie standup :meeting:
+:PROPERTIES:
+:DATE: [2025-09-29 Mon]
+:ATTENDEES: Thomas, Kosh, Veena, Vish, Sophie
+:END:
+*** Agenda:
+sprint 5, reg app
+*** Notes:
+- chat with Vish about infra and pipeline
+*** Action Items:
+**** TODO check that the backend repo gets created for Thomas to do the reg app work
+** Meeting: Ashita 1-1 :meeting:
+:PROPERTIES:
+:DATE: [2025-09-29 Mon]
+:ATTENDEES: Ashita
+:END:
+*** Agenda:
+PR confidence
+*** Notes:
+- Struggled to align between B&E focuses 
+- Ashita didn't want to refactor as much of the days work as she did, but felt little compromise from Jack
+- Could have deferred the refactor, was taking heat that wasn't on her 
+- Jack was struggling with the speed of the feedback, Ashita was trying to build confidence in the change, and as taking time to pull down the  PR's  
+- Ashit feels she is always telling others their work is going to break things
+- Jack has been frustrated his work is not getting through
+
+*** Action Items:
+
+          
+
+** Meeting: test :meeting:
+:PROPERTIES:
+:DATE: [2025-10-10 Fri]
+:ATTENDEES: test
+:END:
+*** Agenda:
+test
+*** Notes:
+- 
+*** Action Items:
+**** TODO
+** Meeting: Employer onboarding scope :meeting:
+:PROPERTIES:
+:DATE: [2025-10-31 Fri]
+:ATTENDEES: Aditi, Johan, Benedict, Megan, Sophie
+:END:
+*** Agenda:
+Clarity on path forward with Auth0 and employer onboarding
+*** Notes:
+- Scope for this Pi
+- Design need to come in on the scope
+- Human onboarding and link them to the Avatar company account
+      auth0 registers a profile
+      auth0 has standard screens and madatory fields
+      save all the human details in the identity domain
+      email and mobile are owned by Auth0 forever
+- Auth0 has a difference in verifying mobile/email and doing MFA
+- The sign up page will be publicly available
+*** Action Items:
+**** TODO need to get design updates from Baz
+**** TODO megan to write up and explain the difference between mobile/email verify and MFA
+**** TODO Need to figure out the difference between the "new" Universal login of auth0 or the classic login
+**** TODO following universal or classic flow and then create the public page
+**** TODO how do we link the new human back to the avatar company and before we do that, what do we show them, in this interim page
+
+
+*** Links 
+- [[https://www.figma.com/design/CxbYkMzJEpidy9I1IqQzRI/Pi6---Employer?node-id=267-25947&p=f&t=aVBzoQSnpsD3x095-0]]
+** Meeting: PM/PO/DL weekly :meeting:
+:PROPERTIES:
+:DATE: [2025-11-27 Thu]
+:ATTENDEES: Aditi, Sophie
+:END:
+*** Agenda:
+Returns
+*** Notes:
+- Amendments
+      need to help size the work
+      particularly for editing 
+- Backdated
+      how do we manage a backdated return where it is generated from a worker
+      no impersonation
+*** Action Items:
+**** TODO need to size the missing two elements on the effort involved to build [[https://miro.com/app/board/uXjVJM1RsEg=/]]
+**** TODO high level solution design by Johan on post submission validation and compliance communication(easier one)
+
 
           

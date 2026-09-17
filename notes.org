@@ -35,3 +35,76 @@ Entered on [2025-06-11 Wed 14:24]
 
   [2025-08-19 Tue]
   [[file:::31]]
+* 
+  [2025-09-09 Tue]
+  [[file:/home/paulm/orgagenda::5]]
+* Tax
+  [2025-10-13 Mon]
+  [[file:/home/paulm/Dropbox/org/notes.org::40]]
+Hi Nigel,
+
+I hope you are well. Firstly, thank you for all your help to date, we are grateful. 
+
+We would like to understand our next best steps. I can’t recall, if I had mentioned that since January 2019, I have been self employed, operating under an ACN. We would like to get some clarity on what is the most realistic options for us are right now. 
+
+My background in detail.
+
+2015  - NOV 2018 commenced contracting, I was on PAYG through various recruitment agencies.
+NOV 2018 - short term contract, the business (AUSNET Services) required I invoice them directly through an ABN
+Jan 2019 - current - the business(Toyota) required I invoice them again, but wouldn’t engage with sole traders, so I had to form a PTY LTD
+
+Katie’s position
+
+Katie is looking to step away from her current position and commence her own business.
+
+With this in mind we are wondering;
+If we should continue to focus on increasing our deposit and holding off on purchasing a house
+Put an application in with just my name
+
+Hope to hear from you soon,
+
+Paul & Katie
+
+ACN:630 897 899
+ABN: 72 630 897 899
+TFN: 886509646
+
+
+Email to accountant:
+Hi Robert,
+Great to e-meet you too. 
+I see my personal details are completed inside the form. Below are the remaining pieces of the pie. 
+ACN:630 897 899(PTY)
+ABN: 72 630 897 899(PTY)
+TFN: 886509646(Personal)
+ABN: 70 962 941 267(Sole trader - Active)
+
+Basic background to my mess.
+Have been a software Project Manager for almost 20 years. Mostly as a day-rate contractor(3-6 month jobs)
+2015  - NOV 2018 commenced contracting, I was on PAYG through various recruitment agencies. 
+NOV 2018 - short term contract, the business (AUSNET Services) required I invoice them directly through an ABN
+Jan 2019 - Aug 2020 - the business(Toyota Australia) required I invoice them again, but wouldn’t engage with sole traders, so I had to form a PTY LTD
+
+From 2018 until Aug 2020 is where I did the damage.
+* Employer onboarding
+  [2025-10-31 Fri]
+  [[file:::17]]
+
+As discussed, we need to understand the following:
+Business outcome:
+
+* Team attendance
+  [2025-11-06 Thu]
+  [[file:::30]]
+
+  We are missing
+ Sophie
+ Naleena
+ Jack
+ Megan
+* Interview Endeavour
+  [2025-11-07 Fri]
+  [[file:/home/paulm/Dropbox/org/notes.org::101]]
+
+  "How does the squad collaborate with external vendors on data governance?
+  What's one delivery win from the last trimester you're most proud of?"

@@ -1,14 +1,9 @@
+# Title: {{title}}
+
+Date:{{format-date now '%Y-%m-%d'}}
+
 ---
-#Title: {{title}}
-#Date: {{format-date now '%Y-%m-%d'}}
-#Keywords: {{keywords}}
----
-{{content}}
 
+## UP
 
-___
-# UP
-
-___
-# DOWN
-
+## DOWN
